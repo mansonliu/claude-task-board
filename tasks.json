@@ -160,6 +160,16 @@
       "created": "2026-05-20",
       "updated": "2026-06-01",
       "note": "改成明亮卡牌風,已上 GitHub Pages"
+    },
+    {
+      "id": "__push_verify_probe__",
+      "title": "__push_verify_probe__",
+      "status": "todo",
+      "machine": "Ubuntu",
+      "category": "test",
+      "created": "2026-06-14",
+      "updated": "2026-06-14",
+      "note": ""
     }
   ]
 }
