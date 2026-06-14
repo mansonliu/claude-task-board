@@ -2,14 +2,14 @@
   "updated": "2026-06-14",
   "tasks": [
     {
-      "id": "guideline-blog-thyroid",
-      "title": "甲狀腺疾病指引更新系列文",
+      "id": "blog-glp1-retinopathy",
+      "title": "GLP-1RA 與糖尿病眼病變(網誌)",
       "status": "in_progress",
       "machine": "Mac",
       "category": "blog",
-      "created": "2026-06-10",
-      "updated": "2026-06-14",
-      "note": "依最新指引改寫部落格文,PMID 逐一回查 esummary"
+      "created": "2026-06-13",
+      "updated": "2026-06-13",
+      "note": "Medicine/GLP1-eye 收集全文中,尚未寫部落格草稿"
     },
     {
       "id": "clinic-list-automation",
@@ -22,9 +22,19 @@
       "note": "每日抓門診/待床清單;PHI 不經雲端,Playwright + Keychain,計畫已成形待實作"
     },
     {
+      "id": "guideline-blog-thyroid",
+      "title": "甲狀腺疾病指引更新系列文",
+      "status": "done",
+      "machine": "Mac",
+      "category": "blog",
+      "created": "2026-06-10",
+      "updated": "2026-06-14",
+      "note": "依最新指引改寫部落格文,PMID 逐一回查 esummary"
+    },
+    {
       "id": "chart-writing-course",
       "title": "病歷寫作線上課程教材",
-      "status": "in_progress",
+      "status": "done",
       "machine": "Mac",
       "category": "teaching",
       "created": "2026-05-01",
@@ -34,7 +44,7 @@
     {
       "id": "paper-whey-protein",
       "title": "Whey protein in Type 2 DM 論文",
-      "status": "in_progress",
+      "status": "done",
       "machine": "Mac",
       "category": "research",
       "created": "2026-04-19",
@@ -44,7 +54,7 @@
     {
       "id": "paper-isotretinoin",
       "title": "Isotretinoin 與胰島素阻抗論文",
-      "status": "in_progress",
+      "status": "done",
       "machine": "Mac",
       "category": "research",
       "created": "2026-04-19",
@@ -54,12 +64,42 @@
     {
       "id": "kiwikeebs-macro",
       "title": "KiwiKeebs Macro 鍵盤韌體",
-      "status": "in_progress",
+      "status": "done",
       "machine": "Mac",
       "category": "hardware",
       "created": "2026-04-20",
       "updated": "2026-05-11",
       "note": "6 鍵 + 旋鈕 macropad,自製 Vial keymap"
+    },
+    {
+      "id": "topic-doac",
+      "title": "DOAC 用法與健保給付規定",
+      "status": "done",
+      "machine": "Mac",
+      "category": "research",
+      "created": "2026-06-06",
+      "updated": "2026-06-06",
+      "note": "整理用法與 2026 健保給付"
+    },
+    {
+      "id": "topic-research-methodology",
+      "title": "臨床研究方法學自學講義",
+      "status": "done",
+      "machine": "Mac",
+      "category": "research",
+      "created": "2026-05-11",
+      "updated": "2026-05-11",
+      "note": "自學講義"
+    },
+    {
+      "id": "topic-insulin-resistance",
+      "title": "Insulin resistance 主題整理",
+      "status": "done",
+      "machine": "Mac",
+      "category": "research",
+      "created": "2026-05-21",
+      "updated": "2026-05-21",
+      "note": "胰島素阻抗文獻整理"
     },
     {
       "id": "lecture-pgy-case-writing",
