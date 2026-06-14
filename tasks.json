@@ -2,6 +2,26 @@
   "updated": "2026-06-14",
   "tasks": [
     {
+      "id": "recurring-amedeo",
+      "title": "AMEDEO 文獻週報(DM/甲狀腺/骨鬆)",
+      "status": "in_progress",
+      "machine": "Mac",
+      "category": "排程",
+      "created": "2026-04-26",
+      "updated": "2026-06-14",
+      "note": "每週二三四 06:30 本地排程,自動產 Gmail 摘要草稿(持續執行中)"
+    },
+    {
+      "id": "recurring-blog-pubmed-watch",
+      "title": "部落格題目 vs PubMed 指引監測",
+      "status": "in_progress",
+      "machine": "Mac",
+      "category": "排程",
+      "created": "2026-05-28",
+      "updated": "2026-06-14",
+      "note": "奇數月 1 日掃新指引/review,產 Gmail 草稿提示哪些網誌該更新(持續執行中)"
+    },
+    {
       "id": "blog-glp1-retinopathy",
       "title": "GLP-1RA 與糖尿病眼病變(網誌)",
       "status": "in_progress",
