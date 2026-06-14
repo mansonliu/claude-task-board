@@ -132,11 +132,16 @@ const STATUSES = [
 ];
 const META = Object.fromEntries(STATUSES.map(s => [s.key, s]));
 
-// 分頁:首頁=進行中,第二頁=待辦+卡住,第三頁=已完成
+// 排程(常駐自動任務)以 category 標記,獨立成一個分頁,不混進進行中
+const SCHED_CAT = "排程";
+const isSched = t => t.category === SCHED_CAT;
+
+// 分頁:首頁=進行中,接著=排程,待辦+卡住,已完成
 const TABS = [
-  { key: "active", label: "進行中",     statuses: ["in_progress"] },
-  { key: "queue",  label: "待辦・卡住", statuses: ["blocked", "todo"] },
-  { key: "done",   label: "已完成",     statuses: ["done"] },
+  { key: "active",   label: "進行中",     statuses: ["in_progress"] },
+  { key: "schedule", label: "排程",       sched: true },
+  { key: "queue",    label: "待辦・卡住", statuses: ["blocked", "todo"] },
+  { key: "done",     label: "已完成",     statuses: ["done"] },
 ];
 let DATA = { tasks: [] };
 let activeTab = (location.hash || "").replace("#", "") || "active";
@@ -156,8 +161,12 @@ function card(t){
   </div>`;
 }
 
-function count(status){ return DATA.tasks.filter(t => t.status === status).length; }
-function tabCount(tab){ return tab.statuses.reduce((n, s) => n + count(s), 0); }
+// 排程任務不計入各狀態的計數(它們有自己的分頁),分頁徽章才不會跟卡片對不上
+function count(status){ return DATA.tasks.filter(t => t.status === status && !isSched(t)).length; }
+function tabCount(tab){
+  if (tab.sched) return DATA.tasks.filter(isSched).length;
+  return tab.statuses.reduce((n, s) => n + count(s), 0);
+}
 
 function renderTabs(){
   document.getElementById("tabs").innerHTML = TABS.map(tab =>
@@ -171,11 +180,20 @@ function renderTabs(){
 
 function renderBoard(){
   const tab = TABS.find(t => t.key === activeTab);
+  // 排程分頁:單純依 updated 降冪列出所有排程任務
+  if (tab.sched) {
+    const items = DATA.tasks.filter(isSched)
+      .sort((a,b) => (b.updated||"").localeCompare(a.updated||""));
+    document.getElementById("board").innerHTML = items.length
+      ? `<div class="grid">${items.map(card).join("")}</div>`
+      : `<div class="empty">目前沒有排程</div>`;
+    return;
+  }
   // 單一狀態的分頁不重複標題,直接列卡片;多狀態(待辦・卡住)才分段
   const sections = tab.statuses.map(key => {
     const s = META[key];
     const items = DATA.tasks
-      .filter(t => t.status === key)
+      .filter(t => t.status === key && !isSched(t))
       .sort((a,b) => (b.updated||"").localeCompare(a.updated||""));
     if (!items.length && tab.statuses.length === 1)
       return `<div class="empty">目前沒有${s.label}的任務</div>`;
@@ -205,7 +223,8 @@ function render(data){
   document.getElementById("updated").textContent = data.updated ? `更新於 ${data.updated}` : "";
   document.getElementById("summary").innerHTML = STATUSES.map(s =>
     `<span class="stat"><b style="color:${s.color}">${count(s.key)}</b> ${s.label}</span>`
-  ).join("");
+  ).join("") +
+    `<span class="stat"><b>${DATA.tasks.filter(isSched).length}</b> 排程</span>`;
   renderTabs();
   renderBoard();
 }
