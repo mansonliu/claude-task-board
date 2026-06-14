@@ -218,6 +218,15 @@ fetch("tasks.json?_=" + Date.now())
       `<div class="empty">讀取 tasks.json 失敗:${esc(e.message)}</div>`;
   });
 
+window.addEventListener("hashchange", () => {
+  const key = location.hash.replace("#", "");
+  if (TABS.some(t => t.key === key) && key !== activeTab) {
+    activeTab = key;
+    renderTabs();
+    renderBoard();
+  }
+});
+
 document.getElementById("footer").innerHTML =
   '資料來源 <a href="tasks.json">tasks.json</a> · 由 Claude Code 在各機器自動更新';
 </script>
