@@ -95,7 +95,6 @@
     border-radius: 12px;
     padding: 14px 15px;
     box-shadow: var(--shadow);
-    border-left: 3px solid var(--bar, var(--border));
   }
   .card.done { opacity: .72; }
   .card .title { font-weight: 600; font-size: .98rem; margin-bottom: 7px; }
@@ -148,12 +147,11 @@ if (!TABS.some(t => t.key === activeTab)) activeTab = "active";
 function esc(s){ return (s==null?"":String(s)).replace(/[&<>"]/g, c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c])); }
 
 function card(t){
-  const st = STATUSES.find(s=>s.key===t.status) || STATUSES[0];
   const chips = [];
   if (t.machine)  chips.push(`<span class="chip machine">${esc(t.machine)}</span>`);
   if (t.category) chips.push(`<span class="chip">${esc(t.category)}</span>`);
   const date = t.updated ? `<span class="date">${esc(t.updated)}</span>` : "";
-  return `<div class="card ${t.status==='done'?'done':''}" style="--bar:${st.color}">
+  return `<div class="card ${t.status==='done'?'done':''}">
     <div class="title">${esc(t.title)}</div>
     ${t.note ? `<div class="note">${esc(t.note)}</div>` : ""}
     <div class="chips">${chips.join("")}${date}</div>
