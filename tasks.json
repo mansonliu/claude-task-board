@@ -160,6 +160,16 @@
       "created": "2026-05-20",
       "updated": "2026-06-01",
       "note": "改成明亮卡牌風,已上 GitHub Pages"
+    },
+    {
+      "id": "b360i-設定-claude-任務看板-clone-認證-身分",
+      "title": "B360i 設定 Claude 任務看板（clone+認證+身分）",
+      "status": "in_progress",
+      "machine": "Office",
+      "category": "infra",
+      "created": "2026-06-14",
+      "updated": "2026-06-14",
+      "note": "依 MEMORY_SYNC 交班單的 Office 設定步驟做，勿試錯"
     }
   ]
 }
