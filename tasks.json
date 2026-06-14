@@ -14,12 +14,12 @@
     {
       "id": "task-board",
       "title": "Claude 任務進度看板",
-      "status": "in_progress",
+      "status": "done",
       "machine": "Mac",
       "category": "harness",
       "created": "2026-06-14",
       "updated": "2026-06-14",
-      "note": "GitHub Pages 看板 + task.py CLI"
+      "note": "已上線:看板+task.py CLI+memory 慣例"
     },
     {
       "id": "phone-battle-redesign",
