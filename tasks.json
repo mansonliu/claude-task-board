@@ -14,7 +14,7 @@
     {
       "id": "clinic-list-automation",
       "title": "門診清單自動化(純本機,不上雲)",
-      "status": "in_progress",
+      "status": "todo",
       "machine": "Office",
       "category": "harness",
       "created": "2026-05-22",
@@ -40,26 +40,6 @@
       "created": "2026-05-01",
       "updated": "2026-05-16",
       "note": "病歷與 CMI、文獻整理、真實案例逐行改寫、投影片稿"
-    },
-    {
-      "id": "paper-whey-protein",
-      "title": "Whey protein in Type 2 DM 論文",
-      "status": "done",
-      "machine": "Mac",
-      "category": "research",
-      "created": "2026-04-19",
-      "updated": "2026-04-19",
-      "note": "餐後血糖 SRMA 相關"
-    },
-    {
-      "id": "paper-isotretinoin",
-      "title": "Isotretinoin 與胰島素阻抗論文",
-      "status": "done",
-      "machine": "Mac",
-      "category": "research",
-      "created": "2026-04-19",
-      "updated": "2026-04-19",
-      "note": "insulin resistance 與 serum adiponectin"
     },
     {
       "id": "kiwikeebs-macro",
