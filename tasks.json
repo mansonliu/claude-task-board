@@ -12,6 +12,96 @@
       "note": "依最新指引改寫部落格文,PMID 逐一回查 esummary"
     },
     {
+      "id": "clinic-list-automation",
+      "title": "門診清單自動化(純本機,不上雲)",
+      "status": "in_progress",
+      "machine": "Office",
+      "category": "harness",
+      "created": "2026-05-22",
+      "updated": "2026-05-23",
+      "note": "每日抓門診/待床清單;PHI 不經雲端,Playwright + Keychain,計畫已成形待實作"
+    },
+    {
+      "id": "chart-writing-course",
+      "title": "病歷寫作線上課程教材",
+      "status": "in_progress",
+      "machine": "Mac",
+      "category": "teaching",
+      "created": "2026-05-01",
+      "updated": "2026-05-16",
+      "note": "病歷與 CMI、文獻整理、真實案例逐行改寫、投影片稿"
+    },
+    {
+      "id": "paper-whey-protein",
+      "title": "Whey protein in Type 2 DM 論文",
+      "status": "in_progress",
+      "machine": "Mac",
+      "category": "research",
+      "created": "2026-04-19",
+      "updated": "2026-04-19",
+      "note": "餐後血糖 SRMA 相關"
+    },
+    {
+      "id": "paper-isotretinoin",
+      "title": "Isotretinoin 與胰島素阻抗論文",
+      "status": "in_progress",
+      "machine": "Mac",
+      "category": "research",
+      "created": "2026-04-19",
+      "updated": "2026-04-19",
+      "note": "insulin resistance 與 serum adiponectin"
+    },
+    {
+      "id": "kiwikeebs-macro",
+      "title": "KiwiKeebs Macro 鍵盤韌體",
+      "status": "in_progress",
+      "machine": "Mac",
+      "category": "hardware",
+      "created": "2026-04-20",
+      "updated": "2026-05-11",
+      "note": "6 鍵 + 旋鈕 macropad,自製 Vial keymap"
+    },
+    {
+      "id": "lecture-pgy-case-writing",
+      "title": "PGY 病例寫作原則演講(8/5)",
+      "status": "todo",
+      "machine": "Mac",
+      "category": "lecture",
+      "created": "2026-06-08",
+      "updated": "2026-06-08",
+      "note": "資料夾已建,尚未開始備課"
+    },
+    {
+      "id": "lecture-jardiance-ckm",
+      "title": "線上演講:SGLT2i 與 T2D 腎臟風險 (CKM)",
+      "status": "done",
+      "machine": "Mac",
+      "category": "lecture",
+      "created": "2026-06-06",
+      "updated": "2026-06-11",
+      "note": "Jardiance/CKM 2023→2026 差異投影片 + 會後 QA;6/11 線上講畢"
+    },
+    {
+      "id": "lecture-pa-guideline",
+      "title": "大內科演講:原發性高醛固酮症指引更新",
+      "status": "done",
+      "machine": "Mac",
+      "category": "lecture",
+      "created": "2026-04-25",
+      "updated": "2026-04-30",
+      "note": "PA guideline update + QA backup"
+    },
+    {
+      "id": "poster-pa-case",
+      "title": "院內論文海報競賽:PA case poster",
+      "status": "done",
+      "machine": "Mac",
+      "category": "research",
+      "created": "2026-05-27",
+      "updated": "2026-05-31",
+      "note": "摘要 + poster v2,已報名參賽"
+    },
+    {
       "id": "task-board",
       "title": "Claude 任務進度看板",
       "status": "done",
@@ -19,7 +109,7 @@
       "category": "harness",
       "created": "2026-06-14",
       "updated": "2026-06-14",
-      "note": "已上線:看板+task.py CLI+memory 慣例"
+      "note": "看板 + task.py CLI + memory 慣例,已上線"
     },
     {
       "id": "phone-battle-redesign",
