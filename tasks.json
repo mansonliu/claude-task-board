@@ -1,0 +1,35 @@
+{
+  "updated": "2026-06-14",
+  "tasks": [
+    {
+      "id": "guideline-blog-thyroid",
+      "title": "甲狀腺疾病指引更新系列文",
+      "status": "in_progress",
+      "machine": "Mac",
+      "category": "blog",
+      "created": "2026-06-10",
+      "updated": "2026-06-14",
+      "note": "依最新指引改寫部落格文,PMID 逐一回查 esummary"
+    },
+    {
+      "id": "task-board",
+      "title": "Claude 任務進度看板",
+      "status": "in_progress",
+      "machine": "Mac",
+      "category": "harness",
+      "created": "2026-06-14",
+      "updated": "2026-06-14",
+      "note": "GitHub Pages 看板 + task.py CLI"
+    },
+    {
+      "id": "phone-battle-redesign",
+      "title": "手機對戰小遊戲改版",
+      "status": "done",
+      "machine": "Mac",
+      "category": "side-project",
+      "created": "2026-05-20",
+      "updated": "2026-06-01",
+      "note": "改成明亮卡牌風,已上 GitHub Pages"
+    }
+  ]
+}
