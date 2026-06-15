@@ -29,7 +29,7 @@
       "category": "blog",
       "created": "2026-06-13",
       "updated": "2026-06-15",
-      "note": "全文抓齊 17/18，改名歸入 fulltext/（檔名=PMID_期刊年_主題）；唯一缺 Neurology Bayesian meta PMID 42060879 待補抓。交班單已更新。下一步：全文抽取補強 grounding，再起草。"
+      "note": "草稿完成並通過對抗查核;NAION 段改寫得更清楚+研究/各國共識做成表格;DR–tirzepatide 論戰改用第一手(已抓 Buckley 原始研究 OA)寫平衡版。等待:①使用者審稿 ②到醫院補抓 2 篇付費全文—Buckley 對 Fadini 的回覆(把論戰寫完整)、Neurology Bayesian meta(目前只用摘要數字)。定稿後發文+歸檔。"
     },
     {
       "id": "clinic-list-automation",
