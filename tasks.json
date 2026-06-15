@@ -180,6 +180,16 @@
       "created": "2026-06-14",
       "updated": "2026-06-14",
       "note": "改寫食藥署失眠指引彙編為內科好讀版；台灣藥名/管制級別已對抗查核；含一頁速查+CBT-I擴寫；HANDOFF於OneDrive/Medicine"
+    },
+    {
+      "id": "topic-t1dm-sglt2i",
+      "title": "T1DM 使用 SGLT2i 文獻整理（指引+證據+利弊）",
+      "status": "in_progress",
+      "machine": "Office",
+      "category": "general",
+      "created": "2026-06-15",
+      "updated": "2026-06-15",
+      "note": "ADA2026 第9章整理；15篇文獻PMID已核對，13篇全文到手(缺inTandem2/EASE)；對抗查核54條→修正Li RR2.79、EMA dapa 5mg。產出在 OneDrive/Medicine/01 Diabetes Melitus/T1DM SGLT2i 文獻/"
     }
   ]
 }
