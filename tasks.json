@@ -188,8 +188,8 @@
       "machine": "Mac",
       "category": "general",
       "created": "2026-06-15",
-      "updated": "2026-06-15",
-      "note": "ADA2026第9章整理T1DM用SGLT2i;主軸=心腎/蛋白尿取捨vs DKA風險。產出:整理md+響應式HTML閱讀版+全文下載清單(都在OneDrive/Medicine/01 Diabetes Melitus/T1DM SGLT2i 文獻/)。06-15:①生HTML並依回饋改版(減粗體/每篇標T1DM或T2DM對象/壞處只聚焦DKA);②補搜近年T1DM腎臟尿蛋白,PubMed255筆收7篇(摘要級,待醫院抓全文;Caramori UACR↓HR0.76/Wang台灣/Abdel-Rahman meta等)。後續:升級摘要篇為全文核對、可能改寫網誌→維持in_progress。原Office開工,Mac續作。"
+      "updated": "2026-06-16",
+      "note": "評讀主軸 30 篇(23全文/7摘要,摘要已達取得上限);另列11篇T2DM地標CVOT/CKD/HF試驗作對照(逐一查ClinicalTrials.gov確認全排除T1DM)。已補ATTEMPT(已發表)+Snaith回顧+進行中腎臟終點試驗。整理md+HTML閱讀版+下載清單同步。待:可改寫為網誌。"
     }
   ]
 }
