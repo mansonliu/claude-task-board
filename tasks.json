@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-16",
+  "updated": "2026-06-17",
   "tasks": [
     {
       "id": "recurring-amedeo",
@@ -190,6 +190,16 @@
       "created": "2026-06-15",
       "updated": "2026-06-16",
       "note": "評讀主軸 30 篇(23全文/7摘要,摘要已達取得上限);另列11篇T2DM地標CVOT/CKD/HF試驗作對照(逐一查ClinicalTrials.gov確認全排除T1DM)。已補ATTEMPT(已發表)+Snaith回顧+進行中腎臟終點試驗。整理md+HTML閱讀版+下載清單同步。待:可改寫為網誌。"
+    },
+    {
+      "id": "topic-trinetx-method",
+      "title": "TriNetX 真實世界研究方法整理",
+      "status": "in_progress",
+      "machine": "Mac",
+      "category": "Mac",
+      "created": "2026-06-17",
+      "updated": "2026-06-17",
+      "note": "讀 critical review 產出做 TriNetX 研究注意事項 HTML；附 4 個內分泌可行論文計畫，待選定後寫完整 protocol"
     }
   ]
 }
