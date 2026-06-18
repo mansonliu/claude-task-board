@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-17",
+  "updated": "2026-06-18",
   "tasks": [
     {
       "id": "recurring-amedeo",
@@ -24,11 +24,11 @@
     {
       "id": "blog-glp1-retinopathy",
       "title": "GLP-1RA 與糖尿病眼病變(網誌)",
-      "status": "in_progress",
+      "status": "done",
       "machine": "Mac",
       "category": "blog",
       "created": "2026-06-13",
-      "updated": "2026-06-16",
+      "updated": "2026-06-18",
       "note": "草稿完成並通過對抗查核;NAION 段改寫+研究/各國共識做成表格;DR–tirzepatide 論戰用第一手寫平衡版。2026-06-16:Buckley 對 Fadini 的回覆已抓到全文並補進草稿(三點具體反駁,收在未定論);Neurology Bayesian meta 確認醫院網路也抓不到,維持用摘要數字當書目連結。剩:使用者審稿→定稿後發文+歸檔。"
     },
     {
