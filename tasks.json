@@ -178,8 +178,8 @@
       "machine": "Mac",
       "category": "topic",
       "created": "2026-06-14",
-      "updated": "2026-06-14",
-      "note": "改寫食藥署失眠指引彙編為內科好讀版；台灣藥名/管制級別已對抗查核；含一頁速查+CBT-I擴寫；HANDOFF於OneDrive/Medicine"
+      "updated": "2026-06-19",
+      "note": "已 GitHub 化:github.com/mansonliu/insomnia-guideline(本機 ~/git/insomnia-guideline)。md 為真實來源、OneDrive HTML 為衍生閱讀版;由成品 HTML 一次性 bootstrap 轉出。內容主體完成(台灣藥名/管制級別對抗查核+CBT-I擴寫);待辦(optional):治療流程加深、特殊族群、健保給付細節"
     },
     {
       "id": "topic-t1dm-sglt2i",
@@ -198,8 +198,8 @@
       "machine": "Mac",
       "category": "Mac",
       "created": "2026-06-17",
-      "updated": "2026-06-17",
-      "note": "讀 critical review 產出做 TriNetX 研究注意事項 HTML；附 4 個內分泌可行論文計畫，待選定後寫完整 protocol"
+      "updated": "2026-06-19",
+      "note": "已 GitHub 化:github.com/mansonliu/trinetx-methods(本機 ~/git/trinetx-methods)。md 為真實來源、HTML 衍生(通用 bootstrap 轉出)。注意事項8節完成;待:選定論文計畫(A tirzepatide vs semaglutide 等4案)後寫完整 protocol、確認萬芳/北醫 TriNetX 存取權"
     }
   ]
 }
