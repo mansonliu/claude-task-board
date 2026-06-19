@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-18",
+  "updated": "2026-06-19",
   "tasks": [
     {
       "id": "recurring-amedeo",
@@ -184,11 +184,11 @@
     {
       "id": "topic-t1dm-sglt2i",
       "title": "T1DM 使用 SGLT2i 文獻整理（指引+證據+利弊）",
-      "status": "in_progress",
+      "status": "done",
       "machine": "Mac",
       "category": "general",
       "created": "2026-06-15",
-      "updated": "2026-06-16",
+      "updated": "2026-06-19",
       "note": "評讀主軸 30 篇(23全文/7摘要,摘要已達取得上限);另列11篇T2DM地標CVOT/CKD/HF試驗作對照(逐一查ClinicalTrials.gov確認全排除T1DM)。已補ATTEMPT(已發表)+Snaith回顧+進行中腎臟終點試驗。整理md+HTML閱讀版+下載清單同步。待:可改寫為網誌。"
     },
     {
