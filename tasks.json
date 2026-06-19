@@ -174,7 +174,7 @@
     {
       "id": "topic-insomnia-guideline",
       "title": "失眠症國際指引內科自學讀本",
-      "status": "in_progress",
+      "status": "done",
       "machine": "Mac",
       "category": "topic",
       "created": "2026-06-14",
@@ -189,7 +189,7 @@
       "category": "general",
       "created": "2026-06-15",
       "updated": "2026-06-19",
-      "note": "評讀主軸 30 篇(23全文/7摘要,摘要已達取得上限);另列11篇T2DM地標CVOT/CKD/HF試驗作對照(逐一查ClinicalTrials.gov確認全排除T1DM)。已補ATTEMPT(已發表)+Snaith回顧+進行中腎臟終點試驗。整理md+HTML閱讀版+下載清單同步。待:可改寫為網誌。"
+      "note": "評讀30篇(23全文/7摘要)+11篇T2DM地標試驗對照。網誌已發佈(LIVE):hanwenliu.blogspot.com/2026/06/1-sglt2.html。已 GitHub 化 t1dm-sglt2i(md 為真實來源、sync 推回 OneDrive)。Wang CA 2026 因族群(需透析 AKI-D 重症次族群)不符已校正並從網誌剔除"
     },
     {
       "id": "topic-trinetx-method",
