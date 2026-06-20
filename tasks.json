@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-19",
+  "updated": "2026-06-20",
   "tasks": [
     {
       "id": "recurring-amedeo",
@@ -200,6 +200,16 @@
       "created": "2026-06-17",
       "updated": "2026-06-19",
       "note": "已 GitHub 化:github.com/mansonliu/trinetx-methods(本機 ~/git/trinetx-methods)。md 為真實來源、HTML 衍生(通用 bootstrap 轉出)。注意事項8節完成;待:選定論文計畫(A tirzepatide vs semaglutide 等4案)後寫完整 protocol、確認萬芳/北醫 TriNetX 存取權"
+    },
+    {
+      "id": "neike-exam-explanations",
+      "title": "內專歷年考題各次專科詳解(md→html)",
+      "status": "in_progress",
+      "machine": "Mac",
+      "category": "topic",
+      "created": "2026-06-20",
+      "updated": "2026-06-20",
+      "note": "114內分泌樣板18題完成;下一步extract.py批次抽109-113;答案印在題號前是地雷"
     }
   ]
 }
