@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-21",
+  "updated": "2026-06-22",
   "tasks": [
     {
       "id": "recurring-amedeo",
@@ -210,6 +210,16 @@
       "created": "2026-06-20",
       "updated": "2026-06-21",
       "note": "7科完成(內分泌/心臟/胸腔/腸胃肝膽/腎臟/感染/風濕免疫);剩腫瘤/血液/神經/一般其他"
+    },
+    {
+      "id": "開機變慢診斷修復-b360-i-辦公機",
+      "title": "開機變慢診斷修復 (B360-I 辦公機)",
+      "status": "in_progress",
+      "machine": "B360i",
+      "category": "general",
+      "created": "2026-06-22",
+      "updated": "2026-06-22",
+      "note": "診斷完成：髒關機→快速啟動失敗→冷開機，+ Dropbox/Google 更新服務各卡30秒。已備 fix-boot.ps1 + HANDOFF.md 於 ~/workspace。待使用者以 admin 執行指令稿並重開機，再撈開機事件驗證 6008/Kernel-Boot29/30秒逾時是否消失。"
     }
   ]
 }
