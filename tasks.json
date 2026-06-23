@@ -228,8 +228,8 @@
       "machine": "Mac",
       "category": "travel",
       "created": "2026-06-23",
-      "updated": "2026-06-23",
-      "note": "專屬 repo: github.com/mansonliu/osaka-usj-2026-09 (private)。GitHub 為最新版本，有更新先 push。機票價格待中秋連假旺季重查。"
+      "updated": "2026-06-24",
+      "note": "好讀網址(家人可看): https://mansonliu.github.io/osaka-usj-2026-09/。原始規劃 repo: github.com/mansonliu/osaka-usj-2026-09 (公開)，改 README push 後自動產生網頁。機票價格待中秋連假旺季重查。"
     },
     {
       "id": "記憶同步升級-v2-其他三台跑安裝指令",
