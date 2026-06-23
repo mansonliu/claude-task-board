@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-23",
+  "updated": "2026-06-24",
   "tasks": [
     {
       "id": "recurring-amedeo",
@@ -230,6 +230,16 @@
       "created": "2026-06-23",
       "updated": "2026-06-23",
       "note": "專屬 repo: github.com/mansonliu/osaka-usj-2026-09 (private)。GitHub 為最新版本，有更新先 push。機票價格待中秋連假旺季重查。"
+    },
+    {
+      "id": "記憶同步升級-v2-其他三台跑安裝指令",
+      "title": "記憶同步升級 v2（其他三台跑安裝指令）",
+      "status": "in_progress",
+      "machine": "XPS/Zen/Office",
+      "category": "harness",
+      "created": "2026-06-24",
+      "updated": "2026-06-24",
+      "note": "v2 共享池記憶同步：Mac 已完成。其餘三台各跑一行升級（自動偵測 memory 目錄、對齊共享池、刪今晚退役的 18 檔、由 frontmatter 重建 MEMORY.md；settings.json 免改）。● XPS/Zen(Ubuntu): bash ~/OneDrive/claude-sync/shared/hooks/setup-v2.sh ● Office(Windows/PS): pwsh -NoProfile -ExecutionPolicy Bypass -File \"$env:USERPROFILE\\OneDrive\\claude-sync\\shared\\hooks\\setup-v2.ps1\"（best-effort 移植，跑完開 Claude session 確認開場提醒與 MEMORY.md）。細節見 ~/OneDrive/claude-sync/shared/hooks/README.v2.md。三台都跑完即收 done。"
     }
   ]
 }
