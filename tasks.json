@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-22",
+  "updated": "2026-06-23",
   "tasks": [
     {
       "id": "recurring-amedeo",
@@ -220,6 +220,16 @@
       "created": "2026-06-22",
       "updated": "2026-06-22",
       "note": "診斷完成：髒關機→快速啟動失敗→冷開機，+ Dropbox/Google 更新服務各卡30秒。已備 fix-boot.ps1 + HANDOFF.md 於 ~/workspace。待使用者以 admin 執行指令稿並重開機，再撈開機事件驗證 6008/Kernel-Boot29/30秒逾時是否消失。"
+    },
+    {
+      "id": "九月旅遊計劃",
+      "title": "九月旅遊計劃",
+      "status": "in_progress",
+      "machine": "Mac",
+      "category": "travel",
+      "created": "2026-06-23",
+      "updated": "2026-06-23",
+      "note": "大阪 USJ 行程規劃：機票(華航/長榮/星宇)、影城旁飯店、門票快速通關比價已完成；計劃存本機，待訂票。"
     }
   ]
 }
