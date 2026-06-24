@@ -234,7 +234,7 @@
     {
       "id": "記憶同步升級-v2-其他三台跑安裝指令",
       "title": "記憶同步升級 v2（其他三台跑安裝指令）",
-      "status": "in_progress",
+      "status": "done",
       "machine": "XPS/Zen/Office",
       "category": "harness",
       "created": "2026-06-24",
