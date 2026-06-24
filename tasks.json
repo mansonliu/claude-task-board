@@ -214,7 +214,7 @@
     {
       "id": "開機變慢診斷修復-b360-i-辦公機",
       "title": "開機變慢診斷修復 (B360-I 辦公機)",
-      "status": "in_progress",
+      "status": "done",
       "machine": "B360i",
       "category": "general",
       "created": "2026-06-22",
