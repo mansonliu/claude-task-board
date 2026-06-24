@@ -148,6 +148,11 @@ let activeTab = (location.hash || "").replace("#", "") || "active";
 if (!TABS.some(t => t.key === activeTab)) activeTab = "active";
 
 function esc(s){ return (s==null?"":String(s)).replace(/[&<>"]/g, c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c])); }
+// 先 esc() 防 XSS,再把 http(s) 網址轉成可點連結(URL 字元已跳脫,引號無法逸出 href)
+function noteHtml(s){
+  return esc(s).replace(/https?:\/\/[^\s｜，。、）)】」』]+/g,
+    u => `<a href="${u}" target="_blank" rel="noopener">${u}</a>`);
+}
 
 function card(t){
   const chips = [];
@@ -156,7 +161,7 @@ function card(t){
   const date = t.updated ? `<span class="date">${esc(t.updated)}</span>` : "";
   return `<div class="card ${t.status==='done'?'done':''}">
     <div class="title">${esc(t.title)}</div>
-    ${t.note ? `<div class="note">${esc(t.note)}</div>` : ""}
+    ${t.note ? `<div class="note">${noteHtml(t.note)}</div>` : ""}
     <div class="chips">${chips.join("")}${date}</div>
   </div>`;
 }
