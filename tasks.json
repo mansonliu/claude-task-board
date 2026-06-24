@@ -218,8 +218,8 @@
       "machine": "B360i",
       "category": "general",
       "created": "2026-06-22",
-      "updated": "2026-06-22",
-      "note": "診斷完成：髒關機→快速啟動失敗→冷開機，+ Dropbox/Google 更新服務各卡30秒。已備 fix-boot.ps1 + HANDOFF.md 於 ~/workspace。待使用者以 admin 執行指令稿並重開機，再撈開機事件驗證 6008/Kernel-Boot29/30秒逾時是否消失。"
+      "updated": "2026-06-24",
+      "note": "Windows端已修復並二度驗證。6/24 17:49 開機複查全過：前次關機乾淨(1074+6006)、無6008/Kernel-Power41/Kernel-Boot29、dbupdate已刪、gupdate改延遲自動(Start=2/Delayed=1)移出關鍵路徑、阿里殘留0、HiberbootEnabled=0。到桌面靜下來≈25秒(調整前≈3分多)。殘留：gupdate仍會在背景逾時30秒(桌面後、無感)可選擇停用。唯一未收：BIOS/POST階段『Press DEL』卡很久(韌體層、Windows量不到)→待改BIOS Boot分頁 Setup Prompt Timeout→1、Fast Boot→Enabled 後回報收卡。"
     },
     {
       "id": "九月旅遊計劃",
