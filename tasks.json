@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-24",
+  "updated": "2026-06-25",
   "tasks": [
     {
       "id": "recurring-amedeo",
@@ -228,8 +228,8 @@
       "machine": "Mac",
       "category": "travel",
       "created": "2026-06-23",
-      "updated": "2026-06-24",
-      "note": "🔗 https://mansonliu.github.io/osaka-usj-2026-09/ ｜ 頁面加自動「最後更新日期＋commit 短碼」標記，改 README push 後自動更新"
+      "updated": "2026-06-25",
+      "note": "機票/飯店定案（已開票），逐日行程寫成 A/B 兩案待選；下一步=市區半天定案、7月底搶 Express、行前文書"
     },
     {
       "id": "記憶同步升級-v2-其他三台跑安裝指令",
