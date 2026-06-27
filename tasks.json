@@ -250,6 +250,16 @@
       "created": "2026-06-27",
       "updated": "2026-06-27",
       "note": "建立章節規劃＋已核對 PMID 的下載清單；待使用者下載全文後逐篇抽摘要"
+    },
+    {
+      "id": "pituitary-imaging-reading",
+      "title": "腦下垂體影像判讀學習資料與文獻清單",
+      "status": "in_progress",
+      "machine": "Mac",
+      "category": "topic",
+      "created": "2026-06-27",
+      "updated": "2026-06-27",
+      "note": "建資料夾+9章規劃+esummary核對文獻清單(13★),待醫院網路下載PDF"
     }
   ]
 }
