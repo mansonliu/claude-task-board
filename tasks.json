@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-25",
+  "updated": "2026-06-27",
   "tasks": [
     {
       "id": "recurring-amedeo",
@@ -240,6 +240,16 @@
       "created": "2026-06-24",
       "updated": "2026-06-24",
       "note": "v2 共享池記憶同步：Mac 已完成。其餘三台各跑一行升級（自動偵測 memory 目錄、對齊共享池、刪今晚退役的 18 檔、由 frontmatter 重建 MEMORY.md；settings.json 免改）。● XPS/Zen(Ubuntu): bash ~/OneDrive/claude-sync/shared/hooks/setup-v2.sh ● Office(Windows/PS): pwsh -NoProfile -ExecutionPolicy Bypass -File \"$env:USERPROFILE\\OneDrive\\claude-sync\\shared\\hooks\\setup-v2.ps1\"（best-effort 移植，跑完開 Claude session 確認開場提醒與 MEMORY.md）。細節見 ~/OneDrive/claude-sync/shared/hooks/README.v2.md。三台都跑完即收 done。"
+    },
+    {
+      "id": "整理醫學影像判讀學習資料與文獻清單",
+      "title": "整理醫學影像判讀學習資料與文獻清單",
+      "status": "in_progress",
+      "machine": "Mac",
+      "category": "醫學",
+      "created": "2026-06-27",
+      "updated": "2026-06-27",
+      "note": "建立章節規劃＋已核對 PMID 的下載清單；待使用者下載全文後逐篇抽摘要"
     }
   ]
 }
