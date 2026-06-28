@@ -274,8 +274,56 @@ function render(data){
   renderBoard();
 }
 
-// ── 8-bit 夜景標題:用方塊 rect 拼出純夜藍城市天際線 + 停在路邊的跑車 ──
+// ── 8-bit 街景標題:依台北時間在白天/黃昏/清晨/夜晚間切換 ──
+// 台北(UTC+8)當前小時(含分鐘),不受瀏覽器時區影響
+function taipeiHour(){
+  const parts = new Intl.DateTimeFormat("en-US",
+    {timeZone:"Asia/Taipei", hour12:false, hour:"2-digit", minute:"2-digit"})
+    .formatToParts(new Date());
+  const get = t => +(parts.find(p=>p.type===t)||{value:0}).value;
+  let hh = get("hour"); if(hh===24) hh=0;                   // 某些環境午夜回傳 24
+  return hh + get("minute")/60;
+}
+function phaseOf(h){
+  if (h >= 7  && h < 17) return "day";
+  if (h >= 17 && h < 19) return "dusk";
+  if (h >= 5  && h < 7 ) return "dawn";
+  return "night";
+}
+const PALETTES = {
+  night: {
+    sky:["#081226","#112a4e","#1b3f6e"],
+    stars:"full", moon:true, sun:null,
+    bld:["#142545","#0e1b34"], litWin:"#ffd45e", darkWin:"#27406b", winTwinkle:true,
+    roadTop:"#24365c", road:"#0c1424", line:"#c9b54a",
+    title:"#cfe2ff", titleSh:"2px 2px 0 #1c3f7a, 3px 3px 0 rgba(0,0,0,.4)", sub:"#aec6ec",
+  },
+  dusk: {
+    sky:["#1d1745","#5a2c63","#c85a3c"],
+    stars:"few", moon:false, sun:{cx:248,cy:25,r:4,fill:"#ffd27a",glow:"#ff7a34"},
+    bld:["#2a1f44","#191230"], litWin:"#ffcf5e", darkWin:"#3a2b52", winTwinkle:true,
+    roadTop:"#5a3a4a", road:"#1a1320", line:"#d8a84a",
+    title:"#ffe7c4", titleSh:"2px 2px 0 #6a2a4a, 3px 3px 0 rgba(0,0,0,.4)", sub:"#ffd0a0",
+  },
+  dawn: {
+    sky:["#152a5e","#6a5a9a","#f0a98a"],
+    stars:"few", moon:false, sun:{cx:64,cy:25,r:4,fill:"#ffdca0",glow:"#ffac6a"},
+    bld:["#26305a","#172040"], litWin:"#ffd98a", darkWin:"#33406b", winTwinkle:false,
+    roadTop:"#4a5070", road:"#141a30", line:"#cdb46a",
+    title:"#ffe9d6", titleSh:"2px 2px 0 #3a4a7a, 3px 3px 0 rgba(0,0,0,.4)", sub:"#ffd2bc",
+  },
+  day: {
+    sky:["#5fb0ee","#8fc9f0","#c7e6f7"],
+    stars:"none", moon:false, sun:{cx:276,cy:9,r:4,fill:"#fff2a8",glow:"#ffd84e"},
+    bld:["#3a5c82","#274764"], litWin:"#d2ebff", darkWin:"#21456b", winTwinkle:false,
+    roadTop:"#9aa6bf", road:"#566076", line:"#e8e2b8",
+    title:"#0e2c52", titleSh:"1px 1px 0 #d4ecfc, 2px 2px 0 rgba(255,255,255,.5)", sub:"#143b6b",
+  },
+};
+const STAR_POS = [[20,4],[44,9],[72,3],[112,7],[150,5],[196,4],[224,8],[252,3],[298,6],[64,11],[170,10]];
+
 function buildHero(){
+  const pal = PALETTES[phaseOf(taipeiHour())];
   const W = 320, H = 36, base = 30;   // base = 路面頂端
   const P = [];
   const r = (x,y,w,h,f,cls)=> P.push(
@@ -283,42 +331,53 @@ function buildHero(){
 
   P.push(`<defs>
     <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#081226"/>
-      <stop offset="0.6" stop-color="#112a4e"/>
-      <stop offset="1" stop-color="#1b3f6e"/>
+      <stop offset="0" stop-color="${pal.sky[0]}"/>
+      <stop offset="0.6" stop-color="${pal.sky[1]}"/>
+      <stop offset="1" stop-color="${pal.sky[2]}"/>
     </linearGradient>
   </defs>`);
 
-  r(0,0,W,H,"url(#sky)");                                   // 夜空
+  r(0,0,W,H,"url(#sky)");                                   // 天空
 
-  // 星星(部分閃爍)
-  [[20,4],[44,9],[72,3],[112,7],[150,5],[196,4],[224,8],[252,3],[298,6],[64,11],[170,10]]
-    .forEach(([x,y],i)=> r(x,y,1,1,"#dce8ff", i%3===0?"tw":""));
+  // 星星(夜晚全部+部分閃爍;清晨/黃昏少量;白天無)
+  if (pal.stars !== "none"){
+    const list = pal.stars === "few" ? STAR_POS.slice(0,4) : STAR_POS;
+    list.forEach(([x,y],i)=> r(x,y,1,1, pal.stars==="few" ? "#cdd8f2" : "#dce8ff",
+      (pal.stars==="full" && i%3===0) ? "tw" : ""));
+  }
 
-  // 月亮(冷色)
-  P.push(`<circle cx="276" cy="8" r="4" fill="#e6edff"/>`);
-  P.push(`<circle cx="274" cy="6" r="1.4" fill="#cdd8f2"/>`);
+  // 月亮(夜晚)
+  if (pal.moon){
+    P.push(`<circle cx="276" cy="8" r="4" fill="#e6edff"/>`);
+    P.push(`<circle cx="274" cy="6" r="1.4" fill="#cdd8f2"/>`);
+  }
+  // 太陽(白天/黃昏/清晨,含光暈)
+  if (pal.sun){
+    const s = pal.sun;
+    P.push(`<circle cx="${s.cx}" cy="${s.cy}" r="${s.r+2.5}" fill="${s.glow}" opacity="0.45"/>`);
+    P.push(`<circle cx="${s.cx}" cy="${s.cy}" r="${s.r}" fill="${s.fill}"/>`);
+  }
 
   // 建築天際線 + 窗戶
   const B = [[0,34,16],[34,26,11],[60,30,19],[90,22,8],[112,36,14],
              [148,24,12],[172,40,17],[212,20,7],[232,34,15],[266,28,11],[294,30,19]];
   B.forEach(([x,w,top],bi)=>{
-    r(x,top,w,base-top, bi%2 ? "#142545" : "#0e1b34");
+    r(x,top,w,base-top, bi%2 ? pal.bld[0] : pal.bld[1]);
     for(let cx=x+3; cx<=x+w-4; cx+=7){
       for(let cy=top+3; cy<=base-4; cy+=5){
         const k = (cx*3 + cy*7 + bi) % 5;
         if(k===0) continue;                                  // 留空當建築實體
         const lit = k%3 !== 0;
-        r(cx,cy,3,3, lit ? "#ffd45e" : "#27406b",
-          (lit && (cx+cy)%4===0) ? "tw" : "");
+        r(cx,cy,3,3, lit ? pal.litWin : pal.darkWin,
+          (pal.winTwinkle && lit && (cx+cy)%4===0) ? "tw" : "");
       }
     }
   });
 
   // 路面 + 中線虛線
-  r(0,base-1,W,1,"#24365c");
-  r(0,base,W,H-base,"#0c1424");
-  for(let dx=6; dx<W; dx+=24) r(dx,base+3,10,1,"#c9b54a");
+  r(0,base-1,W,1,pal.roadTop);
+  r(0,base,W,H-base,pal.road);
+  for(let dx=6; dx<W; dx+=24) r(dx,base+3,10,1,pal.line);
 
   // 停在路邊的跑車(低扁流線型,靜止)
   const sportscar = (x,body,win)=>{
@@ -336,8 +395,18 @@ function buildHero(){
   const el = document.getElementById("scene");
   if(el) el.innerHTML =
     `<svg viewBox="0 0 ${W} ${H}" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg">${P.join("")}</svg>`;
+
+  // 標題文字配色隨時段(白天淺天空底要深色字才讀得清)
+  const en = document.querySelector(".ht-en");
+  const sub = document.querySelector(".ht-sub");
+  if(en){ en.style.color = pal.title; en.style.textShadow = pal.titleSh; }
+  if(sub){ sub.style.color = pal.sub; }
+  const hero = document.querySelector(".hero");
+  if(hero) hero.style.background = pal.sky[1];
 }
 buildHero();
+// 每 5 分鐘重算時段,跨越白天/夜晚交界時自動換景,不必重新整理
+setInterval(buildHero, 5*60*1000);
 
 fetch("tasks.json?_=" + Date.now())
   .then(r => { if(!r.ok) throw new Error(r.status); return r.json(); })
