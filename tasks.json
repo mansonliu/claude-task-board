@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-27",
+  "updated": "2026-06-29",
   "tasks": [
     {
       "id": "recurring-amedeo",
@@ -244,12 +244,12 @@
     {
       "id": "整理醫學影像判讀學習資料與文獻清單",
       "title": "整理醫學影像判讀學習資料與文獻清單",
-      "status": "in_progress",
+      "status": "done",
       "machine": "Mac",
       "category": "醫學",
       "created": "2026-06-27",
-      "updated": "2026-06-27",
-      "note": "建立章節規劃＋已核對 PMID 的下載清單；待使用者下載全文後逐篇抽摘要"
+      "updated": "2026-06-29",
+      "note": "成品 HTML 已交付（頁籤式、左側分章、文末原圖總覽）；流程固化成 skill"
     },
     {
       "id": "pituitary-imaging-reading",
