@@ -254,11 +254,11 @@
     {
       "id": "pituitary-imaging-reading",
       "title": "腦下垂體影像判讀學習資料與文獻清單",
-      "status": "in_progress",
+      "status": "done",
       "machine": "Mac",
       "category": "topic",
       "created": "2026-06-27",
-      "updated": "2026-06-27",
+      "updated": "2026-06-29",
       "note": "建資料夾+9章規劃+esummary核對文獻清單(13★),待醫院網路下載PDF"
     }
   ]
