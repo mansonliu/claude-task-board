@@ -91,6 +91,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
     gap: 12px;
+    align-items: start; /* 短卡不被同列最高的卡撐高 */
   }
   .card {
     background: var(--card);
@@ -101,6 +102,14 @@
   }
   .card .title { font-weight: 600; font-size: .98rem; margin-bottom: 7px; }
   .card .note { color: var(--muted); font-size: .85rem; margin-bottom: 10px; }
+  /* 已完成卡片的長 note 摺成 3 行,點 note 展開/收合 */
+  .card .note.clampable { cursor: pointer; }
+  .card .note.clamped {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
   .chips { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
   .chip {
     font-size: .72rem; padding: 2px 8px; border-radius: 999px;
@@ -126,10 +135,12 @@
   .scene { position: absolute; inset: 0; }
   .scene svg { display: block; width: 100%; height: 100%; image-rendering: pixelated; }
   .hero-title {
-    position: absolute; top: 0; left: 0; margin: 0;
-    padding: clamp(8px, 1.8vw, 14px) clamp(12px, 3vw, 22px);
-    display: flex; flex-direction: column; gap: 4px;
+    position: absolute; top: 0; left: 0; bottom: 0; margin: 0;
+    padding: clamp(8px, 1.8vw, 14px) clamp(40px, 8vw, 80px) clamp(8px, 1.8vw, 14px) clamp(12px, 3vw, 22px);
+    display: flex; flex-direction: column; gap: 4px; justify-content: flex-start;
     font-weight: 400; line-height: 1.1; letter-spacing: normal;
+    /* 深色半透明底,讓標題在任何時段(尤其白天疊在大樓上)都讀得清 */
+    background: linear-gradient(90deg, rgba(8,12,26,.62) 0%, rgba(8,12,26,.45) 55%, rgba(8,12,26,0) 100%);
   }
   .ht-en {
     font-family: "Press Start 2P", monospace;
@@ -197,14 +208,25 @@ function noteHtml(s){
 function card(t){
   const chips = [];
   if (t.machine)  chips.push(`<span class="chip machine">${esc(t.machine)}</span>`);
-  if (t.category) chips.push(`<span class="chip">${esc(t.category)}</span>`);
+  // category 誤填成機器名時不重複顯示
+  if (t.category && t.category !== t.machine)
+    chips.push(`<span class="chip">${esc(t.category)}</span>`);
   const date = t.updated ? `<span class="date">${esc(t.updated)}</span>` : "";
+  // 已完成的長 note 預設摺 3 行(細節留給點開的人),進行中/待辦的 note 全文照登
+  const noteCls = t.status === "done" ? " clamped clampable" : "";
   return `<div class="card ${t.status==='done'?'done':''}">
     <div class="title">${esc(t.title)}</div>
-    ${t.note ? `<div class="note">${noteHtml(t.note)}</div>` : ""}
+    ${t.note ? `<div class="note${noteCls}" ${noteCls?'title="點擊展開/收合"':''}>${noteHtml(t.note)}</div>` : ""}
     <div class="chips">${chips.join("")}${date}</div>
   </div>`;
 }
+
+// 點已完成卡片的 note 展開/收合(點到連結時不觸發)
+document.getElementById("board").addEventListener("click", e => {
+  if (e.target.closest("a")) return;
+  const n = e.target.closest(".note.clampable");
+  if (n) n.classList.toggle("clamped");
+});
 
 // 排程任務不計入各狀態的計數(它們有自己的分頁),分頁徽章才不會跟卡片對不上
 function count(status){ return DATA.tasks.filter(t => t.status === status && !isSched(t)).length; }
@@ -317,7 +339,7 @@ const PALETTES = {
     stars:"none", moon:false, sun:{cx:276,cy:9,r:4,fill:"#fff2a8",glow:"#ffd84e"},
     bld:["#3a5c82","#274764"], litWin:"#d2ebff", darkWin:"#21456b", winTwinkle:false,
     roadTop:"#9aa6bf", road:"#566076", line:"#e8e2b8",
-    title:"#0e2c52", titleSh:"1px 1px 0 #d4ecfc, 2px 2px 0 rgba(255,255,255,.5)", sub:"#143b6b",
+    title:"#eaf4ff", titleSh:"2px 2px 0 #1c3f7a, 3px 3px 0 rgba(0,0,0,.4)", sub:"#cfe0f5",
   },
 };
 const STAR_POS = [[20,4],[44,9],[72,3],[112,7],[150,5],[196,4],[224,8],[252,3],[298,6],[64,11],[170,10]];
@@ -396,7 +418,7 @@ function buildHero(){
   if(el) el.innerHTML =
     `<svg viewBox="0 0 ${W} ${H}" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg">${P.join("")}</svg>`;
 
-  // 標題文字配色隨時段(白天淺天空底要深色字才讀得清)
+  // 標題文字配色隨時段(各時段皆淺色字,搭配 .hero-title 的深色半透明底)
   const en = document.querySelector(".ht-en");
   const sub = document.querySelector(".ht-sub");
   if(en){ en.style.color = pal.title; en.style.textShadow = pal.titleSh; }
