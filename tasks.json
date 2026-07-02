@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-29",
+  "updated": "2026-07-02",
   "tasks": [
     {
       "id": "recurring-amedeo",
@@ -228,8 +228,8 @@
       "machine": "Mac",
       "category": "travel",
       "created": "2026-06-23",
-      "updated": "2026-06-25",
-      "note": "https://mansonliu.github.io/osaka-usj-2026-09/ ｜ 機票/飯店定案（已開票），逐日行程 A/B 兩案待選；下一步=市區半天定案、7月底搶 Express、行前文書"
+      "updated": "2026-07-02",
+      "note": "對外頁改成頁籤版(總覽/門票快通/逐日行程/待辦/經驗整理/行前準備)、減粗體、比價附錄移出頁面。https://mansonliu.github.io/osaka-usj-2026-09/"
     },
     {
       "id": "記憶同步升級-v2-其他三台跑安裝指令",
