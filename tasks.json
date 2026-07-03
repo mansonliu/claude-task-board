@@ -264,7 +264,7 @@
     {
       "id": "air-task-board-setup",
       "title": "Air 設定 Claude 任務看板（clone+gh 認證）",
-      "status": "in_progress",
+      "status": "done",
       "machine": "Mac",
       "category": "setup",
       "created": "2026-07-03",
