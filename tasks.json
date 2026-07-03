@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-02",
+  "updated": "2026-07-03",
   "tasks": [
     {
       "id": "recurring-amedeo",
@@ -260,6 +260,16 @@
       "created": "2026-06-27",
       "updated": "2026-06-29",
       "note": "建資料夾+9章規劃+esummary核對文獻清單(13★),待醫院網路下載PDF"
+    },
+    {
+      "id": "air-task-board-setup",
+      "title": "Air 設定 Claude 任務看板（clone+gh 認證）",
+      "status": "in_progress",
+      "machine": "Mac",
+      "category": "setup",
+      "created": "2026-07-03",
+      "updated": "2026-07-03",
+      "note": ""
     }
   ]
 }
