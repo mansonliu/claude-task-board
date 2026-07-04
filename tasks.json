@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-03",
+  "updated": "2026-07-04",
   "tasks": [
     {
       "id": "recurring-amedeo",
@@ -270,6 +270,16 @@
       "created": "2026-07-03",
       "updated": "2026-07-03",
       "note": ""
+    },
+    {
+      "id": "phone-battle-fun-update",
+      "title": "手機對戰遊戲加料：輪盤加倍、爆擊、8強淘汰賽",
+      "status": "in_progress",
+      "machine": "Mac",
+      "category": "遊戲",
+      "created": "2026-07-04",
+      "updated": "2026-07-04",
+      "note": "https://mansonliu.github.io/phone-battle/｜小五男生受眾；已完成部署"
     }
   ]
 }
