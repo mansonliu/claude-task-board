@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-04",
+  "updated": "2026-07-06",
   "tasks": [
     {
       "id": "recurring-amedeo",
@@ -104,12 +104,12 @@
     {
       "id": "lecture-pgy-case-writing",
       "title": "PGY 病例寫作原則演講(8/5)",
-      "status": "todo",
+      "status": "in_progress",
       "machine": "Mac",
       "category": "lecture",
       "created": "2026-06-08",
-      "updated": "2026-06-08",
-      "note": "資料夾已建,尚未開始備課"
+      "updated": "2026-07-06",
+      "note": "兩案病歷查核+26張投影片內容稿+HTML校對版完成，待逐張校對後送 Claude Design"
     },
     {
       "id": "lecture-jardiance-ckm",
