@@ -280,6 +280,16 @@
       "created": "2026-07-04",
       "updated": "2026-07-04",
       "note": "https://mansonliu.github.io/phone-battle/｜小五男生受眾；已完成部署"
+    },
+    {
+      "id": "bt-hid-proxy-dongle",
+      "title": "藍牙鍵盤轉 USB 接收器 DIY (Pi Zero HID proxy)",
+      "status": "blocked",
+      "machine": "Mac",
+      "category": "hardware",
+      "created": "2026-07-09",
+      "updated": "2026-07-09",
+      "note": "等零件到貨(Pi Zero 2 W)；交班單 github.com/mansonliu/bt-hid-proxy"
     }
   ]
 }
