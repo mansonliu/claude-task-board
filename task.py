@@ -72,6 +72,16 @@ def unique_id(data, base):
     return f"{base}-{i}"
 
 
+def git_sync():
+    """任何操作前先拉最新看板——看板常在多台機器間更新,先同步再動手。"""
+    try:
+        subprocess.run(["git", "-C", ROOT, "pull", "--rebase", "--autostash", "-q"], check=True)
+    except subprocess.CalledProcessError as e:
+        subprocess.run(["git", "-C", ROOT, "rebase", "--abort"],
+                       stderr=subprocess.DEVNULL, check=False)
+        print(f"⚠ git pull 失敗（可能離線）,以本機版本繼續: {e}", file=sys.stderr)
+
+
 def git_push(msg, no_push):
     if no_push:
         print("（--no-push,略過 git）")
@@ -79,10 +89,19 @@ def git_push(msg, no_push):
     try:
         subprocess.run(["git", "-C", ROOT, "add", "tasks.json"], check=True)
         subprocess.run(["git", "-C", ROOT, "commit", "-q", "-m", msg], check=True)
-        subprocess.run(["git", "-C", ROOT, "push", "-q"], check=True)
-        print("✓ 已 push")
     except subprocess.CalledProcessError as e:
-        print(f"⚠ git 失敗（檔已存,可手動 push）: {e}", file=sys.stderr)
+        print(f"⚠ git commit 失敗（檔已存）: {e}", file=sys.stderr)
+        return
+    # push 被拒（他機剛推）時自動 rebase 一次再推
+    for attempt in (1, 2):
+        try:
+            subprocess.run(["git", "-C", ROOT, "push", "-q"], check=True)
+            print("✓ 已 push")
+            return
+        except subprocess.CalledProcessError:
+            if attempt == 1:
+                git_sync()
+    print("⚠ git push 失敗（檔已 commit,可手動 push）", file=sys.stderr)
 
 
 def cmd_add(data, a):
@@ -182,6 +201,8 @@ def main():
     sub.add_parser("list", help="列出所有任務")
 
     a = p.parse_args()
+    if not getattr(a, "no_push", False):
+        git_sync()  # 讀寫前都先同步,list 看到的也是最新看板
     data = load()
 
     if a.cmd in ("done", "block", "start"):
