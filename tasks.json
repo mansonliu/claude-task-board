@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-09",
+  "updated": "2026-07-10",
   "tasks": [
     {
       "id": "recurring-amedeo",
@@ -290,6 +290,16 @@
       "created": "2026-07-09",
       "updated": "2026-07-09",
       "note": "等零件到貨(Pi Zero 2 W)；交班單 github.com/mansonliu/bt-hid-proxy"
+    },
+    {
+      "id": "illustrated-poster-skill",
+      "title": "圖解海報 skill（draw-things-cli 生圖＋HTML 組版＋PNG 輸出）",
+      "status": "done",
+      "machine": "Air",
+      "category": "工具",
+      "created": "2026-07-10",
+      "updated": "2026-07-10",
+      "note": "Air 專屬 skill：批次生多張風格一致的 FLUX 插圖、組成圖文海報 HTML、headless Chrome 輸出 PNG；含 FLUX 提詞要領與逐張目檢流程，位於 ~/.claude/skills/illustrated-poster/"
     }
   ]
 }
