@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-10",
+  "updated": "2026-07-12",
   "tasks": [
     {
       "id": "recurring-amedeo",
@@ -300,6 +300,16 @@
       "created": "2026-07-10",
       "updated": "2026-07-10",
       "note": "Air 專屬 skill：批次生多張風格一致的 FLUX 插圖、組成圖文海報 HTML、headless Chrome 輸出 PNG；含 FLUX 提詞要領與逐張目檢流程，位於 ~/.claude/skills/illustrated-poster/"
+    },
+    {
+      "id": "ghostty-字型設定移植到第二台機器",
+      "title": "Ghostty 字型設定移植到第二台機器",
+      "status": "in_progress",
+      "machine": "Air",
+      "category": "環境設定",
+      "created": "2026-07-12",
+      "updated": "2026-07-12",
+      "note": "設定檔與交班單在 claude-sync/shared/ghostty/，等 Air 端拉取安裝"
     }
   ]
 }
