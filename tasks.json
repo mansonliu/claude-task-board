@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-12",
+  "updated": "2026-07-14",
   "tasks": [
     {
       "id": "recurring-amedeo",
@@ -310,6 +310,16 @@
       "created": "2026-07-12",
       "updated": "2026-07-12",
       "note": "設定檔與交班單在 claude-sync/shared/ghostty/，等 Air 端拉取安裝"
+    },
+    {
+      "id": "family-redpaper-ocr",
+      "title": "家族紅紙祖先名錄辨識整理",
+      "status": "in_progress",
+      "machine": "Mac",
+      "category": "general",
+      "created": "2026-07-14",
+      "updated": "2026-07-14",
+      "note": "OneDrive/掃描 10張照片;初版名錄+HANDOFF已建;待使用者逐項確認爭議字"
     }
   ]
 }
