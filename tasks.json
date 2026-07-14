@@ -304,11 +304,11 @@
     {
       "id": "ghostty-字型設定移植到第二台機器",
       "title": "Ghostty 字型設定移植到第二台機器",
-      "status": "in_progress",
+      "status": "done",
       "machine": "Air",
       "category": "環境設定",
       "created": "2026-07-12",
-      "updated": "2026-07-12",
+      "updated": "2026-07-15",
       "note": "設定檔與交班單在 claude-sync/shared/ghostty/，等 Air 端拉取安裝"
     },
     {
