@@ -33,13 +33,13 @@
     },
     {
       "id": "clinic-list-automation",
-      "title": "門診清單自動化(純本機,不上雲)",
-      "status": "todo",
+      "title": "門診病人檢驗值文字檔(純本機,不上雲)",
+      "status": "in_progress",
       "machine": "Office",
       "category": "harness",
       "created": "2026-05-22",
-      "updated": "2026-05-23",
-      "note": "每日抓門診/待床清單;PHI 不經雲端,Playwright + Keychain,計畫已成形待實作"
+      "updated": "2026-07-15",
+      "note": "7/15 計畫改版:改為門診日早上從 OnePage 抓當日病人姓名+最新檢驗值,產可貼醫令系統的 txt,隨身碟帶去診間。定案:執行期零 LLM 零雲端(不用本地 Gemma),Playwright CDP attach 人工登入的 Chrome,病人間隔隨機 60-120s。交班單在 claude-sync/shared/clinic-list-automation/HANDOFF.md(OneDrive 同步到 Office),待現場確認頁面結構/session 時效/輸出格式後動工"
     },
     {
       "id": "guideline-blog-thyroid",
