@@ -320,6 +320,16 @@
       "created": "2026-07-14",
       "updated": "2026-07-15",
       "note": "校對單已產 iPhone 好讀 PDF 版(LINE 傳不了 HTML)；待家人回覆僅剩清水卒日時、旺財歸屬兩項"
+    },
+    {
+      "id": "clinic-lab-txt",
+      "title": "門診檢驗值自動抓取腳本(OnePage→txt)",
+      "status": "in_progress",
+      "machine": "Office",
+      "category": "automation",
+      "created": "2026-07-15",
+      "updated": "2026-07-15",
+      "note": "腳本開發完成,3人測試通過;全量44人試跑中;門診日排程未設"
     }
   ]
 }
