@@ -329,7 +329,7 @@
       "category": "automation",
       "created": "2026-07-15",
       "updated": "2026-07-15",
-      "note": "腳本開發完成,3人測試通過;全量44人試跑中;門診日排程未設"
+      "note": "全自動版完成:自動連wanfang-Staff+3組密碼輪替登入(keyring)+抓取+3排程(週二五0730/週一三五1230/週二1700)+開機自啟Chrome+不睡眠;項目已curate;curated全量重跑驗證中"
     }
   ]
 }
