@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-15",
+  "updated": "2026-07-16",
   "tasks": [
     {
       "id": "recurring-amedeo",
@@ -320,6 +320,16 @@
       "created": "2026-07-14",
       "updated": "2026-07-15",
       "note": "校對單已產 iPhone 好讀 PDF 版(LINE 傳不了 HTML)；待家人回覆僅剩清水卒日時、旺財歸屬兩項"
+    },
+    {
+      "id": "qmk-oled-顯示-claude-code-模型狀態",
+      "title": "QMK OLED 顯示 Claude Code 模型狀態",
+      "status": "in_progress",
+      "machine": "Air",
+      "category": "工具",
+      "created": "2026-07-16",
+      "updated": "2026-07-16",
+      "note": "調研完成，HANDOFF 在 ~/git/qmk-claude-oled/；等鍵盤到手做 P0（型號/VIA/OLED 解析度）"
     }
   ]
 }
