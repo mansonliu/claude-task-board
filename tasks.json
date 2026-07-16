@@ -325,11 +325,11 @@
       "id": "qmk-oled-顯示-claude-code-模型狀態",
       "title": "QMK OLED 顯示 Claude Code 模型狀態",
       "status": "in_progress",
-      "machine": "Air",
+      "machine": "Mac",
       "category": "工具",
       "created": "2026-07-16",
       "updated": "2026-07-16",
-      "note": "調研完成，HANDOFF 在 ~/git/qmk-claude-oled/；等鍵盤到手做 P0（型號/VIA/OLED 解析度）"
+      "note": "P0-P2 完成：Zima 韌體編譯好、host 腳本+statusline+hooks 已掛，剩刷韌體實測與 P3 部署"
     }
   ]
 }
