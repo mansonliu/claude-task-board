@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-16",
+  "updated": "2026-07-17",
   "tasks": [
     {
       "id": "recurring-amedeo",
@@ -288,8 +288,8 @@
       "machine": "Mac",
       "category": "hardware",
       "created": "2026-07-09",
-      "updated": "2026-07-12",
-      "note": "等零件到貨(Pi Zero 2 W)；交班單 github.com/mansonliu/bt-hid-proxy"
+      "updated": "2026-07-17",
+      "note": "Zero 2 W 換板完成：64-bit 重刷、兩把鍵盤重配對、OverlayFS 開啟、開機 30 秒；剩辦公室實測"
     },
     {
       "id": "illustrated-poster-skill",
