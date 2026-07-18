@@ -34,11 +34,11 @@
     {
       "id": "clinic-list-automation",
       "title": "門診病人檢驗值文字檔(純本機,不上雲)",
-      "status": "in_progress",
+      "status": "done",
       "machine": "Office",
       "category": "harness",
       "created": "2026-05-22",
-      "updated": "2026-07-15",
+      "updated": "2026-07-18",
       "note": "全自動版完成(Office,2026-07-15):OnePage抓當日[0xx]預約病人最新檢驗值→可貼醫令txt。Playwright CDP attach debug Chrome;自動連wanfang-Staff+3組密碼輪替登入(keyring,不上雲)+中途登出自動重登;項目curate(血糖血脂腎肝電解質Hb甲狀腺+抗體內分泌鐵腫瘤標記BC肝CRP,排除eGFR/CBC分項/其他自體抗體);3排程(週二五0730/週一三五1230/週二1700)+開機自啟Chrome+不睡眠。多輪測試通過。詳見資料夾HANDOFF.md"
     },
     {
