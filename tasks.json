@@ -340,6 +340,16 @@
       "created": "2026-07-18",
       "updated": "2026-07-18",
       "note": "Mini 已完成(skill搬遷/索引精簡/deny防護)；其餘四台照 claude-sync/shared/HANDOFF_workflow_opt_20260718.md 執行"
+    },
+    {
+      "id": "topic-t1dm-sglt2i-lit-update",
+      "title": "T1DM SGLT2i 文獻增補（尿蛋白加強）",
+      "status": "in_progress",
+      "machine": "Mac",
+      "category": "general",
+      "created": "2026-07-18",
+      "updated": "2026-07-18",
+      "note": "增補搜尋+codex三輪查核已完成(增補_新文獻_2026-07.md已push)；待辦:辦公室醫院網路抓Tier1全文(PMID 40993932/42396807)→回寫讀本C-2/第六節"
     }
   ]
 }
