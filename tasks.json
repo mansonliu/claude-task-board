@@ -194,11 +194,11 @@
     {
       "id": "topic-trinetx-method",
       "title": "TriNetX 真實世界研究方法整理",
-      "status": "in_progress",
+      "status": "todo",
       "machine": "Mac",
       "category": "research",
       "created": "2026-06-17",
-      "updated": "2026-06-19",
+      "updated": "2026-07-18",
       "note": "已 GitHub 化:github.com/mansonliu/trinetx-methods(本機 ~/git/trinetx-methods)。md 為真實來源、HTML 衍生(通用 bootstrap 轉出)。注意事項8節完成;待:選定論文計畫(A tirzepatide vs semaglutide 等4案)後寫完整 protocol、確認萬芳/北醫 TriNetX 存取權"
     },
     {
