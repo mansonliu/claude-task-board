@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-18",
+  "updated": "2026-07-19",
   "tasks": [
     {
       "id": "recurring-amedeo",
@@ -288,8 +288,8 @@
       "machine": "Mac",
       "category": "hardware",
       "created": "2026-07-09",
-      "updated": "2026-07-17",
-      "note": "Zero 2 W 換板完成：64-bit 重刷、兩把鍵盤重配對、OverlayFS 開啟、開機 30 秒；剩辦公室實測"
+      "updated": "2026-07-19",
+      "note": "2026-07-19 Minila-R 配對成功＋keyd 右Alt虛擬Fn方向鍵上線；三把鍵盤全橋接、OverlayFS 重啟驗證過。剩辦公室實測。"
     },
     {
       "id": "illustrated-poster-skill",
