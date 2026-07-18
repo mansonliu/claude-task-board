@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-17",
+  "updated": "2026-07-18",
   "tasks": [
     {
       "id": "recurring-amedeo",
@@ -330,6 +330,16 @@
       "created": "2026-07-16",
       "updated": "2026-07-16",
       "note": "完成：Zima Vial 韌體直式四場景 OLED(模型名/用量條/星芒/INPUT)+RGB震動提醒+statusline/hooks 全自動；repo: qmk-claude-oled + vial-qmk fork"
+    },
+    {
+      "id": "claude-code-工作流優化跨機器套用",
+      "title": "Claude Code 工作流優化跨機器套用",
+      "status": "in_progress",
+      "machine": "Mac",
+      "category": "環境設定",
+      "created": "2026-07-18",
+      "updated": "2026-07-18",
+      "note": "Mini 已完成(skill搬遷/索引精簡/deny防護)；其餘四台照 claude-sync/shared/HANDOFF_workflow_opt_20260718.md 執行"
     }
   ]
 }
