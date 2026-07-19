@@ -284,7 +284,7 @@
     {
       "id": "bt-hid-proxy-dongle",
       "title": "藍牙鍵盤轉 USB 接收器 DIY (Pi Zero HID proxy)",
-      "status": "in_progress",
+      "status": "done",
       "machine": "Mac",
       "category": "hardware",
       "created": "2026-07-09",
