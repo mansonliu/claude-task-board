@@ -289,7 +289,7 @@
       "category": "hardware",
       "created": "2026-07-09",
       "updated": "2026-07-19",
-      "note": "2026-07-19 Minila-R 配對成功＋keyd 右Alt虛擬Fn方向鍵上線；三把鍵盤全橋接、OverlayFS 重啟驗證過。剩辦公室實測。"
+      "note": "2026-07-19 辦公室滑鼠配對完成(ROG STRIX IMPACT III,BLE 隨機 MAC 名字鎖定配對),實測游標+重開機回連 OK;剩鍵盤辦公室實測後收卡"
     },
     {
       "id": "illustrated-poster-skill",
