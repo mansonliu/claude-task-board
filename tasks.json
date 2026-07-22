@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-21",
+  "updated": "2026-07-22",
   "tasks": [
     {
       "id": "recurring-amedeo",
@@ -354,11 +354,11 @@
     {
       "id": "內分泌衛教文改寫-從演講逐字稿衍伸完整文章-pubmed-查核",
       "title": "內分泌衛教文改寫：從演講逐字稿衍伸完整文章＋PubMed 查核",
-      "status": "in_progress",
+      "status": "done",
       "machine": "Mac",
       "category": "general",
       "created": "2026-07-18",
-      "updated": "2026-07-18",
+      "updated": "2026-07-22",
       "note": ""
     }
   ]
