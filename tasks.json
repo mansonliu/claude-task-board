@@ -370,6 +370,16 @@
       "created": "2026-07-23",
       "updated": "2026-07-23",
       "note": "HANDOFF 在 ~/OneDrive/3DPrint/doorplate-87-3F/；定案凸字版 STL 已交付，待使用者實印回饋"
+    },
+    {
+      "id": "thyroid-multimodal-list",
+      "title": "甲狀腺相關檢驗檢查病人名單(教學掃描)",
+      "status": "in_progress",
+      "machine": "Office",
+      "category": "general",
+      "created": "2026-07-23",
+      "updated": "2026-07-23",
+      "note": "7/20-7/22 抽血版名單已出(7/22 掃一半暫停)｜甲超掃描與多模態合併版待跑｜詳見 HANDOFF_教學用掃描.md"
     }
   ]
 }
