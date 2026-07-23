@@ -399,7 +399,7 @@
       "category": "3dprint",
       "created": "2026-07-23",
       "updated": "2026-07-23",
-      "note": "改走復古電玩主機造型 v2；case/console in milk-zmk repo；STL 已出待試印；韌體 shield 待改 nice_view"
+      "note": "v4.2 造型定案已 commit (milk-zmk case/console)；待：試印驗公差、買 nice!view、改 build.yaml 出 nice_view 韌體"
     }
   ]
 }
