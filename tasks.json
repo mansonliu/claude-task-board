@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-22",
+  "updated": "2026-07-23",
   "tasks": [
     {
       "id": "recurring-amedeo",
@@ -360,6 +360,16 @@
       "created": "2026-07-18",
       "updated": "2026-07-22",
       "note": ""
+    },
+    {
+      "id": "3d-列印門牌建模-openscad-工作流",
+      "title": "3D 列印門牌建模（OpenSCAD 工作流）",
+      "status": "in_progress",
+      "machine": "Mac",
+      "category": "3d-print",
+      "created": "2026-07-23",
+      "updated": "2026-07-23",
+      "note": "HANDOFF 在 ~/OneDrive/3DPrint/doorplate-87-3F/；定案凸字版 STL 已交付，待使用者實印回饋"
     }
   ]
 }
