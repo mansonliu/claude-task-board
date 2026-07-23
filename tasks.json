@@ -390,6 +390,16 @@
       "created": "2026-07-23",
       "updated": "2026-07-23",
       "note": ""
+    },
+    {
+      "id": "milk-laptop-case",
+      "title": "2% Milk 筆電造型外殼(OpenSCAD)+nice!view 改裝",
+      "status": "in_progress",
+      "machine": "Mac",
+      "category": "3dprint",
+      "created": "2026-07-23",
+      "updated": "2026-07-23",
+      "note": "case/laptop_case in milk-zmk repo；v1 STL 已出、待試印；韌體 shield 待改 nice_view"
     }
   ]
 }
