@@ -289,7 +289,7 @@
       "category": "hardware",
       "created": "2026-07-09",
       "updated": "2026-07-24",
-      "note": "新購 Waveshare 2.13\" e-Paper HAT，安裝 SOP 與 PIN 上屏規劃已入 HANDOFF，待 Pi 上電時安裝"
+      "note": "e-Paper HAT V4 裝機完成，狀態頁＋PIN 上屏 daemon 上線，overlay 重開驗證通過"
     },
     {
       "id": "illustrated-poster-skill",
