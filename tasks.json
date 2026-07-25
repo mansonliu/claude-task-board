@@ -410,6 +410,16 @@
       "created": "2026-07-25",
       "updated": "2026-07-25",
       "note": "顯示器上線且收尾完成(OverlayFS已開回,拔電安全);日常運轉中"
+    },
+    {
+      "id": "電子寵物裝置圓球底座-3d-設計",
+      "title": "電子寵物裝置圓球底座 3D 設計",
+      "status": "in_progress",
+      "machine": "Mac",
+      "category": "3DPrint",
+      "created": "2026-07-25",
+      "updated": "2026-07-25",
+      "note": "OneDrive/3DPrint/pwnagotchi-base，等列印實測後調參數"
     }
   ]
 }
