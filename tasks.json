@@ -419,7 +419,7 @@
       "category": "3DPrint",
       "created": "2026-07-25",
       "updated": "2026-07-25",
-      "note": "OneDrive/3DPrint/pwnagotchi-base，等列印實測後調參數"
+      "note": "v3：插槽間隙 0.6→0.1、USB 開口縮為 12×8，cap.stl 已重出，待列印實測"
     }
   ]
 }
