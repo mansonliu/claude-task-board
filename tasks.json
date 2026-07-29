@@ -430,6 +430,16 @@
       "created": "2026-07-29",
       "updated": "2026-07-29",
       "note": "PubMed 搜尋+esummary 核對完成，46 篇分 7 Tier 的文獻下載清單 HTML 已交付；待使用者用醫院網路下載全文"
+    },
+    {
+      "id": "blog-glp1-sglt2-nhi",
+      "title": "GLP-1 RA 與 SGLT-2i 健保給付規定舊文更新（圖改表格）",
+      "status": "in_progress",
+      "machine": "Mac",
+      "category": "網誌",
+      "created": "2026-07-29",
+      "updated": "2026-07-29",
+      "note": "115/7 版條文；新增心衰竭/CKD 一節；HANDOFF 在 _drafts"
     }
   ]
 }
