@@ -408,8 +408,8 @@
       "machine": "Mac",
       "category": "3DPrint",
       "created": "2026-07-25",
-      "updated": "2026-07-25",
-      "note": "v4: 球殼改錐筒(以上蓋面積為準,105.9x105.9x112),電源改 8x8x2.2cm 立放+USB A 上留 25mm;上蓋沿用 v3;等列印實測"
+      "updated": "2026-07-31",
+      "note": "v5 方形一件式設計完成(158×43×106,內腔150×35×100,開底,頂板整合插槽),v5_box.stl 待列印實測"
     },
     {
       "id": "topic-aldo-renin-ddx",
