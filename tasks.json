@@ -409,7 +409,7 @@
       "category": "3DPrint",
       "created": "2026-07-25",
       "updated": "2026-08-01",
-      "note": "v10 定稿:尾鰭斜邊一刀切到後輪拱(免支撐)、翅尖朝後上、車頭v8鈍楔版,206×116×88,v10_batmobile.stl 待列印"
+      "note": "v10 追加:車頂稜線 Minkowski 圓角(4mm)、引擎蓋線條移除,STL 重出待列印"
     },
     {
       "id": "topic-aldo-renin-ddx",
