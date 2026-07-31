@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-30",
+  "updated": "2026-07-31",
   "tasks": [
     {
       "id": "recurring-amedeo",
@@ -382,16 +382,6 @@
       "note": "7/20-7/22 抽血版名單已出(7/22 掃一半暫停)｜7/22 腹超脂肪肝掃描完成(一個月窗 0 人)｜甲超掃描與多模態合併版待跑｜詳見 HANDOFF_教學用掃描.md"
     },
     {
-      "id": "zen-usb-c-螢幕無畫面診斷-tb-alt-mode-待插著重開機驗證",
-      "title": "Zen USB-C 螢幕無畫面診斷（TB alt mode，待插著重開機驗證）",
-      "status": "in_progress",
-      "machine": "Ubuntu",
-      "category": "general",
-      "created": "2026-07-23",
-      "updated": "2026-07-23",
-      "note": ""
-    },
-    {
       "id": "milk-laptop-case",
       "title": "2% Milk 筆電造型外殼(OpenSCAD)+nice!view 改裝",
       "status": "in_progress",
@@ -455,11 +445,11 @@
       "id": "mb16ahg-monitor-troubleshoot",
       "title": "MB16AHG 外接螢幕無畫面排查(硬體)",
       "status": "in_progress",
-      "machine": "XPS",
+      "machine": "XPS/Zen",
       "category": "general",
       "created": "2026-07-30",
-      "updated": "2026-07-30",
-      "note": "軟體診斷完成:USB-C DP lane 接觸劣化,待 Mac 交叉測試;HANDOFF 在 ~/OneDrive/Working/20260730 MB16AHG 外接螢幕故障排查/"
+      "updated": "2026-07-31",
+      "note": "同一問題合併 Zen 卡(7/23 USB-C TB alt mode 診斷,待插著重開機驗證);軟體診斷完成:USB-C DP lane 接觸劣化,待 Mac 交叉測試;HANDOFF 在 ~/OneDrive/Working/20260730 MB16AHG 外接螢幕故障排查/"
     }
   ]
 }
