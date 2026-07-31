@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-31",
+  "updated": "2026-08-01",
   "tasks": [
     {
       "id": "recurring-amedeo",
@@ -408,8 +408,8 @@
       "machine": "Mac",
       "category": "3DPrint",
       "created": "2026-07-25",
-      "updated": "2026-07-31",
-      "note": "v8 蝙蝠車第二輪完成(平車頭/弧形輪拱包輪/蒙皮法面板線,200×116×68),v8_batmobile.stl 待列印"
+      "updated": "2026-08-01",
+      "note": "v9 蝙蝠車第三輪完成(照1989車殼參考:分叉雙尖艏+渦輪口+斜削尾鰭,206×116×68),v9_batmobile.stl 待列印"
     },
     {
       "id": "topic-aldo-renin-ddx",
