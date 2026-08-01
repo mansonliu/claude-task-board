@@ -419,7 +419,7 @@
       "category": "general",
       "created": "2026-07-29",
       "updated": "2026-08-01",
-      "note": "35 篇 PDF 已歸檔改名並逐篇讀完全文；PMID 全部 esummary 重驗通過；產出 重點抽取_v1.md（四軸、每數值附英文原句＋PMID、含證據品質標記與缺口表）；文獻下載清單.html 已標狀態（35 已存／10 取不到）。待使用者決定最終產出形式。"
+      "note": "頁籤式自學讀本 HTML 已產出：高醛固酮腎素不低_自學讀本.html（11 章＋原始文獻圖庫，16 張內嵌圖逐張人工確認）。原始碼在 _notes/body.html＋meta.json，改內容重跑 build_html.py 即可。待使用者校閱。"
     },
     {
       "id": "blog-glp1-sglt2-nhi",
