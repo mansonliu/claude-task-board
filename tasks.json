@@ -419,7 +419,7 @@
       "category": "general",
       "created": "2026-07-29",
       "updated": "2026-08-01",
-      "note": "讀本已通過 codex 六輪解讀查核（直接讀 35 個 PDF 原檔，非二手抽取檔），第 6 輪明確『無必改項目，通過』。累計修正 30 必改＋18 建議改，主要是過度推論與 workflow 回退成通則。重大實質修正：血壓不能排除 Gitelman（KDIGO 註腳）、Oliveira 2020 非 DRC 證據、Ng 2022 並非全部停藥、Herrmann 無 Pd/Pa 閾值、Priyadarshi 結局數據自相矛盾。待使用者校閱。"
+      "note": "讀本粗體密度過高已修正：13.5% → 3.1%（移除 95 個整句粗體，保留數字、切點與英文術語共 118 處，皆 ≤20 字），符合 longform-research-html skill 的「粗體克制」慣例。"
     },
     {
       "id": "blog-glp1-sglt2-nhi",
