@@ -418,8 +418,8 @@
       "machine": "Mac",
       "category": "general",
       "created": "2026-07-29",
-      "updated": "2026-07-29",
-      "note": "PubMed 搜尋+esummary 核對完成，46 篇分 7 Tier 的文獻下載清單 HTML 已交付；待使用者用醫院網路下載全文"
+      "updated": "2026-08-01",
+      "note": "35 篇 PDF 已歸檔改名並逐篇讀完全文；PMID 全部 esummary 重驗通過；產出 重點抽取_v1.md（四軸、每數值附英文原句＋PMID、含證據品質標記與缺口表）；文獻下載清單.html 已標狀態（35 已存／10 取不到）。待使用者決定最終產出形式。"
     },
     {
       "id": "blog-glp1-sglt2-nhi",
