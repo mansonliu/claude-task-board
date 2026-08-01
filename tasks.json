@@ -403,13 +403,13 @@
     },
     {
       "id": "電子寵物裝置圓球底座-3d-設計",
-      "title": "電子寵物裝置圓球底座 3D 設計",
+      "title": "電子寵物裝置車型底座 3D 設計",
       "status": "in_progress",
       "machine": "Mac",
       "category": "3DPrint",
       "created": "2026-07-25",
       "updated": "2026-08-01",
-      "note": "v10 追加:車頂稜線 Minkowski 圓角(4mm)、引擎蓋線條移除,STL 重出待列印"
+      "note": "v15 造型定案:短車頭/素圓大輪/車尾貼齊尾鰭收在後輪/零刻紋/均勻4mm薄殼(體積-37%),待列印實測"
     },
     {
       "id": "topic-aldo-renin-ddx",
