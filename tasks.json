@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-03",
+  "updated": "2026-08-05",
   "tasks": [
     {
       "id": "recurring-amedeo",
@@ -470,6 +470,16 @@
       "created": "2026-08-03",
       "updated": "2026-08-03",
       "note": "交班單在 claude-sync/shared/HANDOFF_cmux_cross_model_20260803.md；Air 可做、Office 走 MCP fallback"
+    },
+    {
+      "id": "homa-ir-方法學研究-發明-驗證-迷思",
+      "title": "HOMA-IR 方法學研究（發明→驗證→迷思）",
+      "status": "in_progress",
+      "machine": "Mac Mini",
+      "category": "醫學研究",
+      "created": "2026-08-05",
+      "updated": "2026-08-05",
+      "note": "六模組研究計劃＋56 篇文獻清單已完成（esummary 全驗證），待下載 Tier 1 全文 24 篇後逐篇抽取"
     }
   ]
 }
