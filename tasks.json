@@ -479,7 +479,7 @@
       "category": "醫學研究",
       "created": "2026-08-05",
       "updated": "2026-08-06",
-      "note": "全文取得 67/77（68 個 PDF 已入庫）；2026-08-06 起跑 Tier 1 的 28 篇逐篇抽取＋completeness critic（數字⇄原句verbatim⇄出處三件一組），產物在專案夾 _抽取/；下一步 M1–M7 模組筆記與讀本 HTML"
+      "note": "Tier 1 的 28 篇抽取＋critic 完成（851 條目，critic 抓出 268 漏抽/14 verbatim 錯誤）；兩懸案定案；產出 計劃修正待辦.md（A 必改 10 項）；下一步依該檔修計劃到 v0.6 再做 M1-M7 模組筆記"
     }
   ]
 }
