@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-05",
+  "updated": "2026-08-06",
   "tasks": [
     {
       "id": "recurring-amedeo",
@@ -464,11 +464,11 @@
     {
       "id": "cmux-cross-model-handoff",
       "title": "cmux 跨模型協作（Claude↔Codex）跨機器交班",
-      "status": "in_progress",
+      "status": "done",
       "machine": "Mac",
       "category": "general",
       "created": "2026-08-03",
-      "updated": "2026-08-03",
+      "updated": "2026-08-06",
       "note": "交班單在 claude-sync/shared/HANDOFF_cmux_cross_model_20260803.md；Air 可做、Office 走 MCP fallback"
     },
     {
