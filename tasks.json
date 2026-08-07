@@ -479,7 +479,7 @@
       "category": "醫學研究",
       "created": "2026-08-05",
       "updated": "2026-08-07",
-      "note": "M1-M7 模組筆記完成（_模組筆記/ 七檔，來源＝_抽取/，每條標 T1-NN Exx 可回溯，附負面清單與缺口）。研究計劃 v0.6.1（求解演算法已知是 iterative，缺口刪除）。下一步二選一：Tier 2 的 28 篇抽取，或直接寫 HOMA-IR 方法學讀本.html（Tier 1 素材已足夠；M5 素材偏薄，Kahn 1993 仍缺）"
+      "note": "Tier 2 全部完成：56/56 抽取檔皆含 critic（T1 28 + T2 28，5.1 MB）。分 5 次執行、累計約 890 萬 subagent tokens。critic 共攔下 14+ 處 verbatim 錯誤（多為 OCR 上標壓平：r²→r 2、I²→I 2、軟連字號）。codex 第二意見審稿 7 條全數採納（CODEX_REVIEW.md）。模組筆記 M1-M7 已依 Tier 2 與 codex 發現修訂。下一步：寫 HOMA-IR 方法學讀本.html"
     }
   ]
 }
