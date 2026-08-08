@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-07",
+  "updated": "2026-08-08",
   "tasks": [
     {
       "id": "recurring-amedeo",
@@ -478,8 +478,8 @@
       "machine": "Mac Mini",
       "category": "醫學研究",
       "created": "2026-08-05",
-      "updated": "2026-08-07",
-      "note": "Tier 2 全部完成：56/56 抽取檔皆含 critic（T1 28 + T2 28，5.1 MB）。分 5 次執行、累計約 890 萬 subagent tokens。critic 共攔下 14+ 處 verbatim 錯誤（多為 OCR 上標壓平：r²→r 2、I²→I 2、軟連字號）。codex 第二意見審稿 7 條全數採納（CODEX_REVIEW.md）。模組筆記 M1-M7 已依 Tier 2 與 codex 發現修訂。下一步：寫 HOMA-IR 方法學讀本.html"
+      "updated": "2026-08-08",
+      "note": "讀本初稿完成（2026-08-08）：HOMA-IR 方法學讀本.html，12 頁籤／14 張內嵌圖（每張逐張目視確認）／155 張圖庫圖／49 段 verbatim 原句／16 條迷思清算。用 longform-research-html skill 版型，來源＝_模組筆記 七份。67 個引用 PMID 定稿時重新 esummary 驗證（無撤回/EoC）。寫作階段補進七項 Tier 2 素材（含唯一的本土分布資料、Geloneze 的 HOMA1/HOMA2 切點對比、Bergman 的 DI 雙曲線部分補上未取得那篇的缺口），並發現一處中介筆記需回頭修的 comparator 型別錯誤。下一步：codex-verify 複審迭代到通過。"
     }
   ]
 }
