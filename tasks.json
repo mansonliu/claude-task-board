@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-13",
+  "updated": "2026-08-17",
   "tasks": [
     {
       "id": "recurring-amedeo",
@@ -418,8 +418,8 @@
       "machine": "Mac",
       "category": "general",
       "created": "2026-07-29",
-      "updated": "2026-08-01",
-      "note": "讀本粗體密度過高已修正：13.5% → 3.1%（移除 95 個整句粗體，保留數字、切點與英文術語共 118 處，皆 ≤20 字），符合 longform-research-html skill 的「粗體克制」慣例。"
+      "updated": "2026-08-17",
+      "note": "已完成議題導向臨床版讀本（9 章、cmux 跨模型協作、兩輪獨立覆核）；與原文獻導向自學讀本並存。待使用者校閱兩份。"
     },
     {
       "id": "blog-glp1-sglt2-nhi",
