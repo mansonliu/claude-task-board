@@ -414,12 +414,12 @@
     {
       "id": "topic-aldo-renin-ddx",
       "title": "高血壓 aldosterone 高/renin 不低 鑑別診斷文獻整理",
-      "status": "in_progress",
+      "status": "done",
       "machine": "Mac",
       "category": "general",
       "created": "2026-07-29",
       "updated": "2026-08-17",
-      "note": "已完成議題導向臨床版讀本（9 章、cmux 跨模型協作、兩輪獨立覆核）；與原文獻導向自學讀本並存。待使用者校閱兩份。"
+      "note": "已完成：文獻導向自學讀本（11 章＋78 圖庫）與議題導向臨床版（9 章）兩份成品並存，使用者確認結案。"
     },
     {
       "id": "blog-glp1-sglt2-nhi",
