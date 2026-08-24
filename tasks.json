@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-20",
+  "updated": "2026-08-24",
   "tasks": [
     {
       "id": "recurring-amedeo",
@@ -444,12 +444,12 @@
     {
       "id": "mb16ahg-monitor-troubleshoot",
       "title": "MB16AHG 外接螢幕無畫面排查(硬體)",
-      "status": "in_progress",
+      "status": "done",
       "machine": "XPS/Zen",
       "category": "general",
       "created": "2026-07-30",
-      "updated": "2026-08-06",
-      "note": "同一問題合併 Zen 卡(7/23 USB-C TB alt mode 診斷);軟體診斷完成:原推測 USB-C DP lane 接觸劣化,但 Zen 兩個 Type-C 埠同時都不能外接螢幕,較像 Ubuntu 驅動問題而非接頭老化;暫停,待有空再續查;HANDOFF 在 ~/OneDrive/Working/20260730 MB16AHG 外接螢幕故障排查/"
+      "updated": "2026-08-24",
+      "note": "2026-08-24 放棄再找原因,結案。軟體診斷結論:Zen 兩個 Type-C 埠都不能外接螢幕,較像 Ubuntu 驅動問題而非接頭老化;HANDOFF 在 ~/OneDrive/Working/20260730 MB16AHG 外接螢幕故障排查/"
     },
     {
       "id": "cura-zhtw-i18n",
