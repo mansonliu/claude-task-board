@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-24",
+  "updated": "2026-08-31",
   "tasks": [
     {
       "id": "recurring-amedeo",
@@ -488,8 +488,8 @@
       "machine": "Mac mini",
       "category": "general",
       "created": "2026-08-20",
-      "updated": "2026-08-20",
-      "note": "讀本已上線：https://mansonliu.github.io/harco-hyrox-prep/ ｜ repo：https://github.com/mansonliu/harco-hyrox-prep ｜ 八章頁籤式 HTML，跨模型雙視窗協作產出並經六輪交叉審稿（25 項必改全數採納）。待主辦賽前說明公告後回頭核對規格。"
+      "updated": "2026-08-31",
+      "note": "讀本已上線：https://mansonliu.github.io/harco-hyrox-prep/ ｜ repo：https://github.com/mansonliu/harco-hyrox-prep ｜ 八章頁籤式 HTML，跨模型雙視窗協作產出並經六輪交叉審稿（25 項必改全數採納）。2026-08-31 追加第 7 章〈選鞋〉與 research/shoe-selection.md：以實驗室抓地/抗扭轉/實測堆疊數據橫向比較六雙鞋，依賽制「跑量 0.40 倍、負重 1.00 倍」重調選鞋權重，鞋款定案並排入 9 月磨合時程；待確認清單新增「場地地面材質」。待主辦賽前說明公告後回頭核對規格。"
     }
   ]
 }
