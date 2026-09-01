@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-31",
+  "updated": "2026-09-01",
   "tasks": [
     {
       "id": "recurring-amedeo",
@@ -18,8 +18,8 @@
       "machine": "Mac",
       "category": "排程",
       "created": "2026-05-28",
-      "updated": "2026-06-14",
-      "note": "奇數月 1 日掃新指引/review,產 Gmail 草稿提示哪些網誌該更新(持續執行中)"
+      "updated": "2026-09-01",
+      "note": "奇數月 1 日掃新指引/review,提示哪些網誌該更新(持續執行中)。2026-09-01 改為直接寄 Gmail 到收件夾,不再產草稿(digest_prompt 改用 send_message,watch.sh 成功標記改 DIGEST_EMAIL_SENT);11 月 1 日該次起生效"
     },
     {
       "id": "blog-glp1-retinopathy",
