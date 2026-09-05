@@ -494,12 +494,12 @@
     {
       "id": "obesity-guideline-proofread",
       "title": "肥胖臨床照護指引校稿（單一章節）＋PDF 文字編碼修復",
-      "status": "in_progress",
+      "status": "done",
       "machine": "Mac",
       "category": "醫學",
       "created": "2026-09-05",
       "updated": "2026-09-05",
-      "note": "負責章節校稿：目視+Codex 雙軌比對，產出 HTML 報告；另修復原檔損毀的 ToUnicode CMap（全書 9.44% 字碼無法複製→0.00%），版面 353/353 頁不變。交班單見工作資料夾 HANDOFF.md"
+      "note": "兩輪校對完成（雙模型比對＋文字層複驗），A–D 各區項目已由使用者在線上版逐項提出；HTML 報告加了勾選追蹤，PDF 文字編碼修復一併完成。"
     }
   ]
 }
