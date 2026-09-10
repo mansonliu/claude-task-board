@@ -25,12 +25,12 @@ Claude Code 在各機器(Mac / Ubuntu / Office)做的任務與研究進度,一�
 ## task.py 用法
 
 ```bash
-python3 task.py add "甲狀腺指引更新文" --cat blog          # 預設狀態 in_progress
-python3 task.py add "整理講演投影片" --status todo --cat lecture
+python3 task.py add "甲狀腺指引更新文" --cat 網誌          # 預設狀態 in_progress
+python3 task.py add "整理講演投影片" --status todo --cat 演講教學
 python3 task.py start <id>                                  # 標記進行中
 python3 task.py done  <id>                                  # 標記完成
 python3 task.py block <id> --note "等使用者回覆"            # 標記卡住
-python3 task.py update <id> --note "PMID 已驗" --cat blog   # 改欄位
+python3 task.py update <id> --note "PMID 已驗" --cat 網誌   # 改欄位
 python3 task.py rm    <id>
 python3 task.py list                                        # 終端列出,不動 git
 ```
@@ -48,7 +48,7 @@ python3 task.py list                                        # 終端列出,不�
       "title": "甲狀腺疾病指引更新系列文",
       "status": "in_progress",          // in_progress | blocked | todo | done
       "machine": "Mac",                 // Mac | Ubuntu | Office
-      "category": "blog",               // 自由字串:blog/lecture/harness/research/...
+      "category": "醫學",               // 固定值:醫學|網誌|演講教學|自動化|硬體|環境工具|生活|排程(常駐排程,獨立分頁)
       "created": "2026-06-10",
       "updated": "2026-06-14",
       "note": "短描述"

@@ -187,6 +187,20 @@ const META = Object.fromEntries(STATUSES.map(s => [s.key, s]));
 const SCHED_CAT = "排程";
 const isSched = t => t.category === SCHED_CAT;
 
+// 任務類別(task.py --cat 的固定值)與「已完成」分頁的分段順序;
+// 不在表內的舊值歸到「其他」段,卡片上的 chip 仍顯示原值
+const CATEGORIES = [
+  { key: "醫學",     label: "醫學研究與讀本" },
+  { key: "網誌",     label: "網誌" },
+  { key: "演講教學", label: "演講與教學" },
+  { key: "自動化",   label: "自動化" },
+  { key: "硬體",     label: "硬體與 3D 列印" },
+  { key: "環境工具", label: "Claude Code 與環境工具" },
+  { key: "生活",     label: "生活與興趣" },
+];
+const OTHER_CAT = { key: "__other", label: "其他" };
+const catOf = t => CATEGORIES.some(c => c.key === t.category) ? t.category : OTHER_CAT.key;
+
 // 分頁:首頁=進行中,接著=排程,待辦+卡住,已完成
 const TABS = [
   { key: "active",   label: "進行中",     statuses: ["in_progress"] },
@@ -254,6 +268,24 @@ function renderBoard(){
     document.getElementById("board").innerHTML = items.length
       ? `<div class="grid">${items.map(card).join("")}</div>`
       : `<div class="empty">目前沒有排程</div>`;
+    return;
+  }
+  // 已完成分頁:依類別分段(順序照 CATEGORIES),段內依 updated 降冪
+  if (tab.key === "done") {
+    const done = DATA.tasks.filter(t => t.status === "done" && !isSched(t));
+    const sections = [...CATEGORIES, OTHER_CAT].map(c => {
+      const items = done.filter(t => catOf(t) === c.key)
+        .sort((a,b) => (b.updated||"").localeCompare(a.updated||""));
+      if (!items.length) return "";
+      return `<section class="section">
+        <div class="section-head">
+          <span class="dot" style="background:${META.done.color}"></span>
+          ${esc(c.label)} <span class="count">${items.length}</span>
+        </div><div class="grid">${items.map(card).join("")}</div>
+      </section>`;
+    }).join("");
+    document.getElementById("board").innerHTML =
+      sections || `<div class="empty">目前沒有已完成的任務</div>`;
     return;
   }
   // 單一狀態的分頁不重複標題,直接列卡片;多狀態(待辦・卡住)才分段

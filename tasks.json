@@ -26,7 +26,7 @@
       "title": "GLP-1RA 與糖尿病眼病變(網誌)",
       "status": "done",
       "machine": "Mac",
-      "category": "blog",
+      "category": "網誌",
       "created": "2026-06-13",
       "updated": "2026-06-18",
       "note": "草稿完成並通過對抗查核;NAION 段改寫+研究/各國共識做成表格;DR–tirzepatide 論戰用第一手寫平衡版。2026-06-16:Buckley 對 Fadini 的回覆已抓到全文並補進草稿(三點具體反駁,收在未定論);Neurology Bayesian meta 確認醫院網路也抓不到,維持用摘要數字當書目連結。剩:使用者審稿→定稿後發文+歸檔。"
@@ -36,7 +36,7 @@
       "title": "門診病人檢驗值文字檔(純本機,不上雲)",
       "status": "done",
       "machine": "Office",
-      "category": "harness",
+      "category": "自動化",
       "created": "2026-05-22",
       "updated": "2026-07-21",
       "note": "2026-07-21 codex 三輪審查加固：點擊改文字定位、原子寫檔、--limit 測試檔、慢載入二次確認、尿蛋白只收定性值等十項（詳 HANDOFF）"
@@ -46,7 +46,7 @@
       "title": "甲狀腺疾病指引更新系列文",
       "status": "done",
       "machine": "Mac",
-      "category": "blog",
+      "category": "網誌",
       "created": "2026-06-10",
       "updated": "2026-06-14",
       "note": "依最新指引改寫部落格文,PMID 逐一回查 esummary"
@@ -56,7 +56,7 @@
       "title": "病歷寫作線上課程教材",
       "status": "done",
       "machine": "Mac",
-      "category": "teaching",
+      "category": "演講教學",
       "created": "2026-05-01",
       "updated": "2026-05-16",
       "note": "病歷與 CMI、文獻整理、真實案例逐行改寫、投影片稿"
@@ -66,7 +66,7 @@
       "title": "KiwiKeebs Macro 鍵盤韌體",
       "status": "done",
       "machine": "Mac",
-      "category": "hardware",
+      "category": "硬體",
       "created": "2026-04-20",
       "updated": "2026-05-11",
       "note": "6 鍵 + 旋鈕 macropad,自製 Vial keymap"
@@ -76,7 +76,7 @@
       "title": "DOAC 用法與健保給付規定",
       "status": "done",
       "machine": "Mac",
-      "category": "research",
+      "category": "醫學",
       "created": "2026-06-06",
       "updated": "2026-06-06",
       "note": "整理用法與 2026 健保給付"
@@ -86,7 +86,7 @@
       "title": "臨床研究方法學自學講義",
       "status": "done",
       "machine": "Mac",
-      "category": "research",
+      "category": "醫學",
       "created": "2026-05-11",
       "updated": "2026-05-11",
       "note": "自學講義"
@@ -96,7 +96,7 @@
       "title": "Insulin resistance 主題整理",
       "status": "done",
       "machine": "Mac",
-      "category": "research",
+      "category": "醫學",
       "created": "2026-05-21",
       "updated": "2026-05-21",
       "note": "胰島素阻抗文獻整理"
@@ -106,7 +106,7 @@
       "title": "PGY 病例寫作原則演講(8/5)",
       "status": "done",
       "machine": "Office",
-      "category": "lecture",
+      "category": "演講教學",
       "created": "2026-06-08",
       "updated": "2026-08-06",
       "note": "2026-07-26 評估律師文章「AI 讀病歷」概念，拍板不加入課程、維持現狀（詳 HANDOFF 第 9 點）"
@@ -116,7 +116,7 @@
       "title": "線上演講:SGLT2i 與 T2D 腎臟風險 (CKM)",
       "status": "done",
       "machine": "Mac",
-      "category": "lecture",
+      "category": "演講教學",
       "created": "2026-06-06",
       "updated": "2026-06-11",
       "note": "Jardiance/CKM 2023→2026 差異投影片 + 會後 QA;6/11 線上講畢"
@@ -126,7 +126,7 @@
       "title": "大內科演講:原發性高醛固酮症指引更新",
       "status": "done",
       "machine": "Mac",
-      "category": "lecture",
+      "category": "演講教學",
       "created": "2026-04-25",
       "updated": "2026-04-30",
       "note": "PA guideline update + QA backup"
@@ -136,7 +136,7 @@
       "title": "院內論文海報競賽:PA case poster",
       "status": "done",
       "machine": "Mac",
-      "category": "research",
+      "category": "醫學",
       "created": "2026-05-27",
       "updated": "2026-05-31",
       "note": "摘要 + poster v2,已報名參賽"
@@ -146,7 +146,7 @@
       "title": "Claude 任務進度看板",
       "status": "done",
       "machine": "Mac",
-      "category": "harness",
+      "category": "環境工具",
       "created": "2026-06-14",
       "updated": "2026-06-14",
       "note": "看板 + task.py CLI + memory 慣例,已上線"
@@ -156,7 +156,7 @@
       "title": "手機對戰小遊戲改版",
       "status": "done",
       "machine": "Mac",
-      "category": "side-project",
+      "category": "生活",
       "created": "2026-05-20",
       "updated": "2026-06-01",
       "note": "改成明亮卡牌風,已上 GitHub Pages"
@@ -166,7 +166,7 @@
       "title": "B360i 設定 Claude 任務看板（clone+認證+身分）",
       "status": "done",
       "machine": "Office",
-      "category": "infra",
+      "category": "環境工具",
       "created": "2026-06-14",
       "updated": "2026-06-15",
       "note": "依 MEMORY_SYNC 交班單的 Office 設定步驟做，勿試錯"
@@ -176,7 +176,7 @@
       "title": "失眠症國際指引內科自學讀本",
       "status": "done",
       "machine": "Mac",
-      "category": "topic",
+      "category": "醫學",
       "created": "2026-06-14",
       "updated": "2026-07-19",
       "note": "家＝~/OneDrive/Medicine/失眠症國際指引/（2026-07-19 從 GitHub 移回 OneDrive 為主體，repo 與 ~/git/insomnia-guideline 已移除、不留 git；留史靠 CHANGELOG.md＋OneDrive 版本史）。md 為真實來源、HTML 手動衍生。內容主體完成（台灣藥名/管制級別對抗查核＋CBT-I 擴寫）；待辦(optional):治療流程加深、特殊族群、健保給付細節"
@@ -186,7 +186,7 @@
       "title": "T1DM 使用 SGLT2i 文獻整理（指引+證據+利弊）",
       "status": "done",
       "machine": "Mac",
-      "category": "general",
+      "category": "醫學",
       "created": "2026-06-15",
       "updated": "2026-07-19",
       "note": "家＝~/OneDrive/Medicine/01 Diabetes Melitus/T1DM SGLT2i 文獻/（2026-07-19 從 GitHub 移回 OneDrive 為主體，repo 與 ~/git/t1dm-sglt2i 已移除、不留 git；留史靠 CHANGELOG.md＋OneDrive 版本史）。評讀30篇(23全文/7摘要)+11篇T2DM地標試驗對照。網誌已發佈(LIVE):hanwenliu.blogspot.com/2026/06/1-sglt2.html。Wang CA 2026 因族群(需透析 AKI-D 重症次族群)不符已校正並從網誌剔除"
@@ -196,7 +196,7 @@
       "title": "TriNetX 真實世界研究方法整理",
       "status": "todo",
       "machine": "Mac",
-      "category": "research",
+      "category": "醫學",
       "created": "2026-06-17",
       "updated": "2026-07-19",
       "note": "家＝~/OneDrive/Medicine/TriNetX 研究方法/（2026-07-19 從 GitHub 移回 OneDrive 為主體，repo 與 ~/git/trinetx-methods 已移除、不留 git；留史靠 CHANGELOG.md＋OneDrive 版本史；通用 bootstrap_html_to_md.py 現存本資料夾供其他題目複製）。md 為真實來源、HTML 手動衍生。注意事項8節完成;待:選定論文計畫(A tirzepatide vs semaglutide 等4案)後寫完整 protocol、確認萬芳/北醫 TriNetX 存取權"
@@ -206,7 +206,7 @@
       "title": "內專歷年考題各次專科詳解(md→html)",
       "status": "done",
       "machine": "Mac",
-      "category": "topic",
+      "category": "醫學",
       "created": "2026-06-20",
       "updated": "2026-06-23",
       "note": "11科全部完成(內分泌114/心臟116/胸腔119/腸胃肝膽119/腎臟108/感染111/風濕免疫94/血液59/腫瘤62/神經43/一般醫學其他55)。md為單一真實來源+md2html.py產HTML閱讀版;逐選項詳解+對抗查核徽章✓/⚠;6年度頁籤(109-114)。本機運作不上GitHub,成品在~/OneDrive/Medicine/內專歷年考題/_詳解/"
@@ -216,7 +216,7 @@
       "title": "開機變慢診斷修復 (B360-I 辦公機)",
       "status": "done",
       "machine": "B360i",
-      "category": "general",
+      "category": "環境工具",
       "created": "2026-06-22",
       "updated": "2026-06-24",
       "note": "Windows端已修復並二度驗證。6/24 17:49 開機複查全過：前次關機乾淨(1074+6006)、無6008/Kernel-Power41/Kernel-Boot29、dbupdate已刪、gupdate改延遲自動(Start=2/Delayed=1)移出關鍵路徑、阿里殘留0、HiberbootEnabled=0。到桌面靜下來≈25秒(調整前≈3分多)。殘留：gupdate仍會在背景逾時30秒(桌面後、無感)可選擇停用。唯一未收：BIOS/POST階段『Press DEL』卡很久(韌體層、Windows量不到)→待改BIOS Boot分頁 Setup Prompt Timeout→1、Fast Boot→Enabled 後回報收卡。"
@@ -226,7 +226,7 @@
       "title": "九月旅遊計劃",
       "status": "in_progress",
       "machine": "Mac",
-      "category": "travel",
+      "category": "生活",
       "created": "2026-06-23",
       "updated": "2026-09-10",
       "note": "9/24–9/27 大阪 USJ 4 天 3 夜，行程經 codex 三輪複審通過、使用者已過目並選定頭尾兩天方案，票券已購得；待出發。https://mansonliu.github.io/osaka-usj-2026-09/"
@@ -236,7 +236,7 @@
       "title": "記憶同步升級 v2（其他三台跑安裝指令）",
       "status": "done",
       "machine": "XPS/Zen/Office",
-      "category": "harness",
+      "category": "環境工具",
       "created": "2026-06-24",
       "updated": "2026-06-24",
       "note": "v2 共享池記憶同步：Mac 已完成。其餘三台各跑一行升級（自動偵測 memory 目錄、對齊共享池、刪今晚退役的 18 檔、由 frontmatter 重建 MEMORY.md；settings.json 免改）。● XPS/Zen(Ubuntu): bash ~/OneDrive/claude-sync/shared/hooks/setup-v2.sh ● Office(Windows/PS): pwsh -NoProfile -ExecutionPolicy Bypass -File \"$env:USERPROFILE\\OneDrive\\claude-sync\\shared\\hooks\\setup-v2.ps1\"（best-effort 移植，跑完開 Claude session 確認開場提醒與 MEMORY.md）。細節見 ~/OneDrive/claude-sync/shared/hooks/README.v2.md。三台都跑完即收 done。"
@@ -256,7 +256,7 @@
       "title": "腦下垂體影像判讀學習資料與文獻清單",
       "status": "done",
       "machine": "Mac",
-      "category": "topic",
+      "category": "醫學",
       "created": "2026-06-27",
       "updated": "2026-06-29",
       "note": "建資料夾+9章規劃+esummary核對文獻清單(13★),待醫院網路下載PDF"
@@ -266,7 +266,7 @@
       "title": "Air 設定 Claude 任務看板（clone+gh 認證）",
       "status": "done",
       "machine": "Mac",
-      "category": "setup",
+      "category": "環境工具",
       "created": "2026-07-03",
       "updated": "2026-07-03",
       "note": ""
@@ -276,7 +276,7 @@
       "title": "手機對戰遊戲加料：輪盤加倍、爆擊、8強淘汰賽",
       "status": "done",
       "machine": "Mac",
-      "category": "遊戲",
+      "category": "生活",
       "created": "2026-07-04",
       "updated": "2026-07-04",
       "note": "https://mansonliu.github.io/phone-battle/｜小五男生受眾；已完成部署"
@@ -286,7 +286,7 @@
       "title": "藍牙鍵盤轉 USB 接收器 DIY (Pi Zero HID proxy)",
       "status": "done",
       "machine": "Mac",
-      "category": "hardware",
+      "category": "硬體",
       "created": "2026-07-09",
       "updated": "2026-07-25",
       "note": "e-paper 螢幕全部完工：黑白片定案+PIN上屏+狀態頁(12px打勾+官方logo)；三色片留給 Zero W；剩醫院滑鼠實測待驗"
@@ -296,7 +296,7 @@
       "title": "圖解海報 skill（draw-things-cli 生圖＋HTML 組版＋PNG 輸出）",
       "status": "done",
       "machine": "Air",
-      "category": "工具",
+      "category": "環境工具",
       "created": "2026-07-10",
       "updated": "2026-07-10",
       "note": "Air 專屬 skill：批次生多張風格一致的 FLUX 插圖、組成圖文海報 HTML、headless Chrome 輸出 PNG；含 FLUX 提詞要領與逐張目檢流程，位於 ~/.claude/skills/illustrated-poster/"
@@ -306,7 +306,7 @@
       "title": "Ghostty 字型設定移植到第二台機器",
       "status": "done",
       "machine": "Air",
-      "category": "環境設定",
+      "category": "環境工具",
       "created": "2026-07-12",
       "updated": "2026-07-15",
       "note": "設定檔與交班單在 claude-sync/shared/ghostty/，等 Air 端拉取安裝"
@@ -316,7 +316,7 @@
       "title": "家族紅紙祖先名錄辨識整理",
       "status": "done",
       "machine": "Mac",
-      "category": "general",
+      "category": "生活",
       "created": "2026-07-14",
       "updated": "2026-07-16",
       "note": "校對單已產 iPhone 好讀 PDF 版(LINE 傳不了 HTML)；待家人回覆僅剩清水卒日時、旺財歸屬兩項"
@@ -326,7 +326,7 @@
       "title": "QMK OLED 顯示 Claude Code 模型狀態",
       "status": "done",
       "machine": "Mac",
-      "category": "工具",
+      "category": "硬體",
       "created": "2026-07-16",
       "updated": "2026-07-16",
       "note": "完成：Zima Vial 韌體直式四場景 OLED(模型名/用量條/星芒/INPUT)+RGB震動提醒+statusline/hooks 全自動；repo: qmk-claude-oled + vial-qmk fork"
@@ -336,7 +336,7 @@
       "title": "Claude Code 工作流優化跨機器套用",
       "status": "done",
       "machine": "Mac",
-      "category": "環境設定",
+      "category": "環境工具",
       "created": "2026-07-18",
       "updated": "2026-07-20",
       "note": "Mini 已完成(skill搬遷/索引精簡/deny防護)；其餘四台照 claude-sync/shared/HANDOFF_workflow_opt_20260718.md 執行"
@@ -346,7 +346,7 @@
       "title": "T1DM SGLT2i 文獻增補（尿蛋白加強）",
       "status": "done",
       "machine": "Mac",
-      "category": "general",
+      "category": "醫學",
       "created": "2026-07-18",
       "updated": "2026-07-19",
       "note": "增補搜尋+codex三輪查核已完成（增補_新文獻_2026-07.md 存於 ~/OneDrive/Medicine/01 Diabetes Melitus/T1DM SGLT2i 文獻/，2026-07-19 起專案已改回 OneDrive 為主體、不再 push GitHub）；待辦:辦公室醫院網路抓Tier1全文(PMID 40993932/42396807)→回寫讀本C-2/第六節"
@@ -356,7 +356,7 @@
       "title": "內分泌衛教文改寫：從演講逐字稿衍伸完整文章＋PubMed 查核",
       "status": "done",
       "machine": "Mac",
-      "category": "general",
+      "category": "網誌",
       "created": "2026-07-18",
       "updated": "2026-07-22",
       "note": ""
@@ -366,7 +366,7 @@
       "title": "3D 列印門牌建模（OpenSCAD 工作流）",
       "status": "done",
       "machine": "Mac",
-      "category": "3d-print",
+      "category": "硬體",
       "created": "2026-07-23",
       "updated": "2026-07-25",
       "note": "HANDOFF 在 ~/OneDrive/3DPrint/doorplate-87-3F/；定案凸字版 STL 已交付，待使用者實印回饋"
@@ -376,7 +376,7 @@
       "title": "甲狀腺相關檢驗檢查病人名單(教學掃描)",
       "status": "done",
       "machine": "Office",
-      "category": "general",
+      "category": "自動化",
       "created": "2026-07-23",
       "updated": "2026-07-25",
       "note": "7/20-7/22 抽血版名單已出(7/22 掃一半暫停)｜7/22 腹超脂肪肝掃描完成(一個月窗 0 人)｜甲超掃描與多模態合併版待跑｜詳見 HANDOFF_教學用掃描.md"
@@ -386,7 +386,7 @@
       "title": "2% Milk 筆電造型外殼(OpenSCAD)+nice!view 改裝",
       "status": "todo",
       "machine": "Mac",
-      "category": "3dprint",
+      "category": "硬體",
       "created": "2026-07-23",
       "updated": "2026-09-10",
       "note": "v4.2 造型定案已 commit (milk-zmk case/console, 2026-07-23)；之後未動。待：試印驗公差、買 nice!view、改 build.yaml 出 nice_view 韌體、v5 底板。2026-09-10 改列 todo"
@@ -396,7 +396,7 @@
       "title": "退役 Pi Zero W 三色電子紙資訊顯示器",
       "status": "done",
       "machine": "Mac",
-      "category": "general",
+      "category": "硬體",
       "created": "2026-07-25",
       "updated": "2026-07-25",
       "note": "2026-07-25 內容改版：TechNews AI 新聞、加 0050/006208/2330、去道瓊、每頁 300 秒（已上線驗證）"
@@ -406,7 +406,7 @@
       "title": "電子寵物裝置車型底座 3D 設計",
       "status": "done",
       "machine": "Mac",
-      "category": "3DPrint",
+      "category": "硬體",
       "created": "2026-07-25",
       "updated": "2026-08-06",
       "note": "v15 造型定案:短車頭/素圓大輪/車尾貼齊尾鰭收在後輪/零刻紋/均勻4mm薄殼(體積-37%),待列印實測"
@@ -416,7 +416,7 @@
       "title": "高血壓 aldosterone 高/renin 不低 鑑別診斷文獻整理",
       "status": "done",
       "machine": "Mac",
-      "category": "general",
+      "category": "醫學",
       "created": "2026-07-29",
       "updated": "2026-08-17",
       "note": "已完成：文獻導向自學讀本（11 章＋78 圖庫）與議題導向臨床版（9 章）兩份成品並存，使用者確認結案。"
@@ -436,7 +436,7 @@
       "title": "降血脂藥物健保給付規定舊文更新（115/9/1 新制）",
       "status": "done",
       "machine": "Mac",
-      "category": "general",
+      "category": "網誌",
       "created": "2026-07-29",
       "updated": "2026-07-30",
       "note": "115/9/1 給付規定改版：表一 ASCVD 風險分級＋表二沿用舊表；ezetimibe 與複方 3 個月改 6-8 週。更新既有已發佈文 post 1478381195418641825"
@@ -446,7 +446,7 @@
       "title": "MB16AHG 外接螢幕無畫面排查(硬體)",
       "status": "done",
       "machine": "XPS/Zen",
-      "category": "general",
+      "category": "硬體",
       "created": "2026-07-30",
       "updated": "2026-08-24",
       "note": "2026-08-24 放棄再找原因,結案。軟體診斷結論:Zen 兩個 Type-C 埠都不能外接螢幕,較像 Ubuntu 驅動問題而非接頭老化;HANDOFF 在 ~/OneDrive/Working/20260730 MB16AHG 外接螢幕故障排查/"
@@ -456,7 +456,7 @@
       "title": "Cura 繁中語系檔補完（816 條未翻譯）",
       "status": "done",
       "machine": "Mac",
-      "category": "Mac",
+      "category": "環境工具",
       "created": "2026-08-01",
       "updated": "2026-08-01",
       "note": "翻譯已產出驗證完成，待 sudo 安裝進 app bundle 並實機檢查畫面"
@@ -466,7 +466,7 @@
       "title": "cmux 跨模型協作（Claude↔Codex）跨機器交班",
       "status": "done",
       "machine": "Mac",
-      "category": "general",
+      "category": "環境工具",
       "created": "2026-08-03",
       "updated": "2026-08-06",
       "note": "交班單在 claude-sync/shared/HANDOFF_cmux_cross_model_20260803.md；Air 可做、Office 走 MCP fallback"
@@ -476,7 +476,7 @@
       "title": "HOMA-IR 方法學研究（發明→驗證→迷思）",
       "status": "in_progress",
       "machine": "Mac Mini",
-      "category": "醫學研究",
+      "category": "醫學",
       "created": "2026-08-05",
       "updated": "2026-09-10",
       "note": "三層文件（12 頁籤證據層→六章精簡機制版→部落格草稿）共用同一份事實登錄表，check_facts.py 全綠。2026-09-09 部落格草稿〈HOMA-IR 2.5，可以說有胰島素阻抗嗎？〉依 Williams 15e Ch33 對照做框架重構（中心命題改為「門診可以算、可以當提示，但不能靠沒交代 assay 與版本的數字替個人下診斷」），Claude＋codex 獨立評估一致；第二輪減鋪陳、小標改直述；現 2,687 字、12 個 PubMed 連結全數 esummary 驗證。待：使用者校稿定案→配圖→blogger-cli 發佈→搬 _archive 收卡"
@@ -486,7 +486,7 @@
       "title": "混合體能賽事備賽讀本（技術分析＋八週計畫）",
       "status": "in_progress",
       "machine": "Mac mini",
-      "category": "general",
+      "category": "生活",
       "created": "2026-08-20",
       "updated": "2026-08-31",
       "note": "讀本已上線：https://mansonliu.github.io/harco-hyrox-prep/ ｜ repo：https://github.com/mansonliu/harco-hyrox-prep ｜ 八章頁籤式 HTML，跨模型雙視窗協作產出並經六輪交叉審稿（25 項必改全數採納）。2026-08-31 追加第 7 章〈選鞋〉與 research/shoe-selection.md：以實驗室抓地/抗扭轉/實測堆疊數據橫向比較六雙鞋，依賽制「跑量 0.40 倍、負重 1.00 倍」重調選鞋權重，鞋款定案並排入 9 月磨合時程；待確認清單新增「場地地面材質」。待主辦賽前說明公告後回頭核對規格。"

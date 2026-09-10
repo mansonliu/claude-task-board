@@ -2,8 +2,8 @@
 """Claude 任務看板 CLI — 在任何機器一行指令維護 tasks.json 並自動 push。
 
 用法範例:
-  python3 task.py add "甲狀腺指引更新文" --cat blog              # 預設 in_progress
-  python3 task.py add "整理講演投影片" --status todo --cat lecture
+  python3 task.py add "甲狀腺指引更新文" --cat 網誌              # 預設 in_progress
+  python3 task.py add "整理講演投影片" --status todo --cat 演講教學
   python3 task.py update guideline-blog-thyroid --note "PMID 已驗"
   python3 task.py done task-board
   python3 task.py block <id> --note "等使用者回覆"
@@ -11,6 +11,9 @@
   python3 task.py list
 
 去識別規則:title / note 不得含病患資訊;醫學任務用抽象描述(repo 是公開的)。
+類別(--cat)固定用下列值,「已完成」分頁依此分段:
+  醫學(研究/讀本) | 網誌 | 演講教學 | 自動化(一次性排程/腳本) | 硬體(含 3D 列印)
+  | 環境工具(Claude Code/機器設定) | 生活(旅遊/遊戲/家務) | 排程(常駐自動任務,獨立分頁)
 """
 import argparse, json, os, platform, re, subprocess, sys
 from datetime import date
@@ -18,6 +21,7 @@ from datetime import date
 ROOT = os.path.dirname(os.path.abspath(__file__))
 DATA = os.path.join(ROOT, "tasks.json")
 STATUSES = ["in_progress", "blocked", "todo", "done"]
+CATEGORIES = ["醫學", "網誌", "演講教學", "自動化", "硬體", "環境工具", "生活", "排程"]
 
 
 def today():
@@ -53,6 +57,11 @@ def save(data):
     with open(DATA, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
         f.write("\n")
+
+
+def warn_cat(cat):
+    if cat and cat not in CATEGORIES:
+        print(f"⚠ 類別「{cat}」不在固定清單 {'/'.join(CATEGORIES)},看板會歸到「其他」", file=sys.stderr)
 
 
 def find(data, tid):
@@ -105,13 +114,14 @@ def git_push(msg, no_push):
 
 
 def cmd_add(data, a):
+    warn_cat(a.cat)
     tid = unique_id(data, a.id or slugify(a.title))
     t = {
         "id": tid,
         "title": a.title,
         "status": a.status,
         "machine": a.machine or detect_machine(),
-        "category": a.cat or "general",
+        "category": a.cat or "其他",
         "created": today(),
         "updated": today(),
         "note": a.note or "",
@@ -130,6 +140,7 @@ def cmd_update(data, a):
     if a.title:
         t["title"] = a.title
     if a.cat:
+        warn_cat(a.cat)
         t["category"] = a.cat
     if a.machine:
         t["machine"] = a.machine
@@ -178,7 +189,7 @@ def main():
     pa.add_argument("title")
     pa.add_argument("--id")
     pa.add_argument("--status", choices=STATUSES, default="in_progress")
-    pa.add_argument("--cat")
+    pa.add_argument("--cat", help="類別: " + "/".join(CATEGORIES))
     pa.add_argument("--machine")
     pa.add_argument("--note")
 
@@ -186,7 +197,7 @@ def main():
     pu.add_argument("id")
     pu.add_argument("--status", choices=STATUSES)
     pu.add_argument("--title")
-    pu.add_argument("--cat")
+    pu.add_argument("--cat", help="類別: " + "/".join(CATEGORIES))
     pu.add_argument("--machine")
     pu.add_argument("--note")
 
