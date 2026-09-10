@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-08",
+  "updated": "2026-09-10",
   "tasks": [
     {
       "id": "recurring-amedeo",
@@ -8,8 +8,8 @@
       "machine": "Mac",
       "category": "排程",
       "created": "2026-04-26",
-      "updated": "2026-06-14",
-      "note": "每週二三四 06:30 本地排程,自動產 Gmail 摘要草稿(持續執行中)"
+      "updated": "2026-09-10",
+      "note": "每週二三四 06:30 本地排程；已改為直接寄 Gmail 摘要信到收件夾（Diabetes/Thyroid/Osteoporosis 各一封，2026-09-07～09 皆正常寄出），不再產草稿（持續執行中）"
     },
     {
       "id": "recurring-blog-pubmed-watch",
