@@ -509,7 +509,7 @@
       "category": "自動化",
       "created": "2026-09-08",
       "updated": "2026-09-10",
-      "note": "bat 改純 ASCII 包裝、流程搬進 run_clinic.py；通知走 Gmail SMTP 寄給自己，使用者已確認收到測試信｜只剩 9/8 16:30 EVE 首次真實跑，過了就收卡"
+      "note": "bat 改純 ASCII 包裝、流程搬進 run_clinic.py；失敗通知走 Gmail SMTP 寄給自己（測試信已確認）。9/8 16:30 首次真實跑後未收到失敗通知，2026-09-10 收卡"
     }
   ]
 }
