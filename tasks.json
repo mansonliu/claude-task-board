@@ -229,7 +229,7 @@
       "category": "生活",
       "created": "2026-06-23",
       "updated": "2026-09-14",
-      "note": "2026-09-14 起頁首每日天氣追蹤（Open-Meteo 大阪 USJ，四天卡＋警示＋趨勢）；weather.yml 每日排程待 gh token 補 workflow scope 後 push"
+      "note": "網頁：https://mansonliu.github.io/osaka-usj-2026-09/ ｜ 2026-09-14 起頁首每日天氣追蹤（Open-Meteo 大阪 USJ，四天卡＋警示＋趨勢），GitHub Actions 每天 07:00 JST 自動更新；行程 9/24–9/27"
     },
     {
       "id": "記憶同步升級-v2-其他三台跑安裝指令",
