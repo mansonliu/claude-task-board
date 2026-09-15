@@ -529,7 +529,7 @@
       "category": "演講教學",
       "created": "2026-09-15",
       "updated": "2026-09-15",
-      "note": "extract_patient_history.py 已完成，Story/Profile/Lab/Exam/Image 五頁籤一次抓成本機病史檔；下一步挑 5 位案例、去識別化"
+      "note": "extract_patient_history.py＋deid_history.py 完成；案例A 投影片（15 張中英對照＋英文備忘稿）已出，在 OneDrive/Medicine/01 Diabetes Melitus；下一步等使用者給其餘 4 位病歷號"
     }
   ]
 }
