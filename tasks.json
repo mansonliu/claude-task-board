@@ -529,7 +529,7 @@
       "category": "演講教學",
       "created": "2026-09-15",
       "updated": "2026-09-15",
-      "note": "案例A、B 投影片＋英文備忘稿完成（B：LADA 併 DKA，15 張），HANDOFF.md 在 OneDrive/Medicine/01 Diabetes Melitus/2026 糖尿病共病症個案討論/；B 有待補的急診初值與五項推斷待使用者確認；其餘 3 位等使用者給病歷號"
+      "note": "案例A、B 投影片＋英文備忘稿完成（B：LADA 併 DKA），HANDOFF.md 在 OneDrive/Medicine/01 Diabetes Melitus/2026 糖尿病共病症個案討論/；使用者另給 5 位（案例 C–G），病歷已批次抓取＋去識別＋濃縮，投影片改一個 session 做一個；去識別腳本補 8 種人名樣式、新增濃縮腳本省 token"
     }
   ]
 }
