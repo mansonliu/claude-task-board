@@ -529,7 +529,7 @@
       "category": "演講教學",
       "created": "2026-09-15",
       "updated": "2026-09-15",
-      "note": "案例A、B、C 投影片＋英文備忘稿完成（C：第 2 型 22 年併冠心病、GLP-1 RA 後過度治療、小球性貧血），HANDOFF.md 在 OneDrive/Medicine/01 Diabetes Melitus/2026 糖尿病共病症個案討論/；案例 D–G 病歷已抓取＋去識別＋濃縮，投影片一個 session 做一個；去識別腳本待補「Reporter: 人名」樣式"
+      "note": "2026-09-15 Mini：三份投影片加放映模式自動縮放（內容超出 16:9 時自動縮到塞進畫面），45 張截圖驗證通過"
     }
   ]
 }
