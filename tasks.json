@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-16",
+  "updated": "2026-09-18",
   "tasks": [
     {
       "id": "recurring-amedeo",
@@ -524,12 +524,12 @@
     {
       "id": "dm-comorbidity-cases",
       "title": "糖尿病共病教學案例：OnePage 病史抓取工具",
-      "status": "in_progress",
+      "status": "done",
       "machine": "Mac Mini",
       "category": "演講教學",
       "created": "2026-09-15",
-      "updated": "2026-09-16",
-      "note": "2026-09-16 使用者表單回覆 A–E 41/81 項，B/C/D/E 投影片與備忘稿已照改、fit 全 1.000；未回覆 E-10~16、F、G、X"
+      "updated": "2026-09-18",
+      "note": "2026-09-18 上課已結束，任務完成。｜2026-09-16 使用者表單回覆 A–E 41/81 項，B/C/D/E 投影片與備忘稿已照改、fit 全 1.000；未回覆 E-10~16、F、G、X"
     }
   ]
 }
