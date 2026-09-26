@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-18",
+  "updated": "2026-09-26",
   "tasks": [
     {
       "id": "recurring-amedeo",
@@ -225,11 +225,11 @@
       "id": "九月旅遊計劃",
       "title": "九月旅遊計劃",
       "status": "in_progress",
-      "machine": "Mac",
+      "machine": "Air",
       "category": "生活",
       "created": "2026-06-23",
-      "updated": "2026-09-14",
-      "note": "網頁：https://mansonliu.github.io/osaka-usj-2026-09/ ｜ 2026-09-14 起頁首每日天氣追蹤（Open-Meteo 大阪 USJ，四天卡＋警示＋趨勢），GitHub Actions 每天 07:00 JST 自動更新；行程 9/24–9/27"
+      "updated": "2026-09-26",
+      "note": "網頁：https://mansonliu.github.io/osaka-usj-2026-09/ ｜ 旅程進行中：USJ 9/25、9/26 已玩完（遊玩紀錄頁籤），快通恢復二選一完整選項；9/27 回台，回國後補完紀錄即收卡"
     },
     {
       "id": "記憶同步升級-v2-其他三台跑安裝指令",
