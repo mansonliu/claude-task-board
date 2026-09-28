@@ -514,12 +514,12 @@
     {
       "id": "clinic-list-batch1",
       "title": "門診清單排程第一批改善（載入未確認／檢查點＋總時限／HTML 失敗處理）",
-      "status": "in_progress",
+      "status": "done",
       "machine": "Office",
       "category": "自動化",
       "created": "2026-09-13",
-      "updated": "2026-09-18",
-      "note": "9/14–9/18 四輪真實門診驗證通過（9/16、9/18 PM 各出現 1–2 位載入未確認，皆為初診）。2026-09-18 續作：①run_clinic 加通知門檻（未確認 <3 人且 <10% 不推 Discord）；②主程式加 LabApiWatch，CDP 監看 lab.list 回 200+{} 即寫無檢驗資料（偵查證實 DOM 無空狀態元件）。離線測試全過、實機 047／018／001 驗證、續跑今日下午檔 exit 0。待下週排程真實驗證"
+      "updated": "2026-09-28",
+      "note": "2026-09-28 收卡：9/21–9/23 四輪真實門診全 exit 0、無載入未確認，LabApiWatch 實際觸發 1 次（9/21）。9/25、9/28 exit 1 是國定假日清單 0 人的誤報，非第一批問題"
     },
     {
       "id": "dm-comorbidity-cases",
