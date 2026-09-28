@@ -530,6 +530,16 @@
       "created": "2026-09-15",
       "updated": "2026-09-18",
       "note": "2026-09-18 上課已結束，任務完成。｜2026-09-16 使用者表單回覆 A–E 41/81 項，B/C/D/E 投影片與備忘稿已照改、fit 全 1.000；未回覆 E-10~16、F、G、X"
+    },
+    {
+      "id": "blog-lipid-nhi-list-sync",
+      "title": "降血脂給付文品項清單改由健保署專區 ODS 同步（115/9/1 版核對＋分階段擴增說明）",
+      "status": "in_progress",
+      "machine": "Mac",
+      "category": "網誌",
+      "created": "2026-09-28",
+      "updated": "2026-09-28",
+      "note": "草稿待校稿：https://hanwenliu.blogspot.com/2019/01/Lipid-NHI-regulation.html ；同步腳本 _inventory/lipid_nhi_list_sync.py；Blogger token 過期待重新授權"
     }
   ]
 }
