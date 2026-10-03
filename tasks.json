@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-28",
+  "updated": "2026-10-03",
   "tasks": [
     {
       "id": "recurring-amedeo",
@@ -540,6 +540,16 @@
       "created": "2026-09-28",
       "updated": "2026-09-28",
       "note": "草稿待校稿：https://hanwenliu.blogspot.com/2019/01/Lipid-NHI-regulation.html ；同步腳本 _inventory/lipid_nhi_list_sync.py；Blogger token 過期待重新授權"
+    },
+    {
+      "id": "glyxambi-talk-20261016",
+      "title": "Glyxambi 基層演講準備（10/16）",
+      "status": "in_progress",
+      "machine": "Mac",
+      "category": "演講教學",
+      "created": "2026-10-03",
+      "updated": "2026-10-03",
+      "note": "兩份原廠簡報逐張對照 HTML 與 Q&A HTML 已產出（OneDrive 工作夾）｜待：自備案例、依對照檔修投影片、確認議程講題代碼"
     }
   ]
 }
