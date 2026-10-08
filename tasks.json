@@ -489,7 +489,7 @@
       "category": "生活",
       "created": "2026-08-20",
       "updated": "2026-10-08",
-      "note": "讀本已上線：https://mansonliu.github.io/harco-hyrox-prep/ ｜ repo：https://github.com/mansonliu/harco-hyrox-prep ｜ 八章頁籤式 HTML，跨模型雙視窗協作產出並經多輪交叉審稿。2026-09-14 鞋已定案。2026-10-08 主辦發佈官方大會手冊（35 頁）：逐頁看影像判讀後併入全書（規格器材欄、判罰總表、八站改為官方條文、場地動線與裁判確認離站、報到晶片與完賽流程、待確認清單改核對結果），另一視窗獨立校對一輪、6 項修正已採納，待複查後 commit／push。"
+      "note": "讀本已上線：https://mansonliu.github.io/harco-hyrox-prep/ ｜ repo：https://github.com/mansonliu/harco-hyrox-prep ｜ 八章頁籤式 HTML，跨模型雙視窗協作產出並經多輪交叉審稿。2026-09-14 鞋已定案。2026-10-08 主辦發佈官方大會手冊（35 頁）：逐頁看影像判讀後併入全書（規格器材欄、判罰總表、八站改為官方條文、場地動線與裁判確認離站、報到晶片與完賽流程、待確認清單改核對結果）；另一視窗獨立校對兩輪，第一輪 6 項修正全數採納、第二輪通過。待使用者同意後 commit／push。"
     },
     {
       "id": "obesity-guideline-proofread",
