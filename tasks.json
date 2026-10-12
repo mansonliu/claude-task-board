@@ -564,12 +564,12 @@
     {
       "id": "kobo-dashboard",
       "title": "Kobo Aura ONE 資訊看板（行事曆＋倒數）",
-      "status": "done",
+      "status": "in_progress",
       "machine": "Office",
-      "category": "硬體",
+      "category": "排程",
       "created": "2026-10-12",
       "updated": "2026-10-12",
-      "note": "工作夾 ~/OneDrive/Working/20261012 Kobo 資訊看板｜2026-10-12 完成：Mac Mini launchd 伺服器＋Kobo trmnl-kobo 常駐，橫向版面、每天 06:00/18:00 更新、電量、倒數（HARCO、2027 國家地理路跑）；實機方向與版面確認 OK｜IP 若離開 192.168.0.188 要改 Kobo 的 TrmnlApiUrl（未做 DHCP 保留）"
+      "note": "常駐中（2026-10-12 上線）：Mac Mini launchd 伺服器 com.hanwenliu.kobo-dashboard 產圖，Kobo Aura ONE 每天 06:00/18:00 醒來抓圖；橫向版面、電量、倒數（HARCO、2027 國家地理路跑）｜工作夾 ~/OneDrive/Working/20261012 Kobo 資訊看板｜IP 若離開 192.168.0.188 要改 Kobo 的 TrmnlApiUrl（未做 DHCP 保留）"
     }
   ]
 }
