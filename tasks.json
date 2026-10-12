@@ -569,7 +569,7 @@
       "category": "硬體",
       "created": "2026-10-12",
       "updated": "2026-10-12",
-      "note": "工作夾 ~/OneDrive/Working/20261012 Kobo 資訊看板｜Mac Mini 端已完成（2026-10-12）：launchd 服務常駐、API 正常、PingFang TC 字型已修（macOS 27 路徑搬到 AssetsV2）｜待：Kobo 端安裝（NickelMenu→KoboStuff→trmnl-kobo），實機看過後微調字級"
+      "note": "工作夾 ~/OneDrive/Working/20261012 Kobo 資訊看板｜2026-10-12 Mac Mini 伺服器與 Kobo 端（NickelMenu+KoboStuff+trmnl-kobo）皆裝好，試跑成功顯示行事曆＋倒數｜待：LoopMaxIteration 改 0 常駐、實機微調字級、路由器 DHCP 保留"
     }
   ]
 }
