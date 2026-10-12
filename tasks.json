@@ -569,7 +569,7 @@
       "category": "硬體",
       "created": "2026-10-12",
       "updated": "2026-10-12",
-      "note": "工作夾 ~/OneDrive/Working/20261012 Kobo 資訊看板｜2026-10-12 Mac Mini 伺服器與 Kobo 端（NickelMenu+KoboStuff+trmnl-kobo）皆裝好，試跑成功顯示行事曆＋倒數｜待：LoopMaxIteration 改 0 常駐、實機微調字級、路由器 DHCP 保留"
+      "note": "工作夾 ~/OneDrive/Working/20261012 Kobo 資訊看板｜2026-10-12 全部裝好：Mac Mini 伺服器常駐、Kobo 端 trmnl-kobo 常駐（LoopMaxIteration=0）、橫向版面、每天 06:00/18:00 更新、顯示電量｜待：實機確認橫向方向與字級、路由器 DHCP 保留 192.168.0.188"
     }
   ]
 }
