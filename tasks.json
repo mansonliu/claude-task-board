@@ -569,7 +569,7 @@
       "category": "硬體",
       "created": "2026-10-12",
       "updated": "2026-10-12",
-      "note": "工作夾 ~/OneDrive/Working/20261012 Kobo 資訊看板｜2026-10-12 全部裝好：Mac Mini 伺服器常駐、Kobo 端 trmnl-kobo 常駐（LoopMaxIteration=0）、橫向版面、每天 06:00/18:00 更新、顯示電量｜待：實機確認橫向方向與字級、路由器 DHCP 保留 192.168.0.188"
+      "note": "工作夾 ~/OneDrive/Working/20261012 Kobo 資訊看板｜2026-10-12 全部裝好常駐：橫向版面、每天 06:00/18:00 更新、電量、兩個倒數（HARCO、2027 國家地理路跑）｜未做 DHCP 保留（路由器密碼遺失，使用者決定不重設）；Mac Mini IP 若離開 192.168.0.188 要改 Kobo 的 TrmnlApiUrl｜待：實機確認橫向方向與字級"
     }
   ]
 }
