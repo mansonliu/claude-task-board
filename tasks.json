@@ -569,7 +569,7 @@
       "category": "硬體",
       "created": "2026-10-12",
       "updated": "2026-10-12",
-      "note": "工作夾 ~/OneDrive/Working/20261012 Kobo 資訊看板｜Kobo 端用 trmnl-kobo，Mac Mini 跑自建伺服器產圖"
+      "note": "工作夾 ~/OneDrive/Working/20261012 Kobo 資訊看板｜Mac Mini 端已完成（2026-10-12）：launchd 服務常駐、API 正常、PingFang TC 字型已修（macOS 27 路徑搬到 AssetsV2）｜待：Kobo 端安裝（NickelMenu→KoboStuff→trmnl-kobo），實機看過後微調字級"
     }
   ]
 }
