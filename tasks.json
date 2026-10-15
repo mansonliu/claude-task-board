@@ -580,6 +580,16 @@
       "created": "2026-10-15",
       "updated": "2026-10-15",
       "note": "scan_story_med_week.py 完成；四個門診日 260 人次掃完、產出名單在 OneDrive 輸出/（含 PHI，不上傳）；換藥可 --report-only 重篩"
+    },
+    {
+      "id": "glyxambi-case-pptx",
+      "title": "糖尿病複方換藥案例分享投影片（4 張 pptx）",
+      "status": "in_progress",
+      "machine": "Office",
+      "category": "演講教學",
+      "created": "2026-10-15",
+      "updated": "2026-10-15",
+      "note": "成品在 OneDrive/Medicine/01 Diabetes Melitus/2026 Glyxambi 案例分享/；含產生腳本可重跑"
     }
   ]
 }
