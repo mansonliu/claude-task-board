@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-15",
+  "updated": "2026-10-16",
   "tasks": [
     {
       "id": "recurring-amedeo",
@@ -544,12 +544,12 @@
     {
       "id": "glyxambi-talk-20261016",
       "title": "Glyxambi 基層演講準備（10/16）",
-      "status": "in_progress",
+      "status": "done",
       "machine": "Mini",
       "category": "演講教學",
       "created": "2026-10-03",
-      "updated": "2026-10-15",
-      "note": "10/15 深夜：講用簡報精簡為 44 張（封面去日期、刪重複流程圖與處方資訊頁），對照閱讀 HTML 同步"
+      "updated": "2026-10-16",
+      "note": "10/16 已完成演講；講用簡報 44 張＋對照閱讀 HTML"
     },
     {
       "id": "dental-dm-lecture-2026",
