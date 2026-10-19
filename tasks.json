@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-18",
+  "updated": "2026-10-19",
   "tasks": [
     {
       "id": "recurring-amedeo",
@@ -558,8 +558,8 @@
       "machine": "Mac Mini",
       "category": "演講教學",
       "created": "2026-10-03",
-      "updated": "2026-10-08",
-      "note": "新版 132 張已套用 2026 ADA/EASD 共識更新、備忘稿清空；另有新舊版修改對照 HTML 待校稿"
+      "updated": "2026-10-19",
+      "note": "10/19 課後考題 15 題完成（沿用 13 題、換 2 題新題，Codex 審兩輪通過）；投影片待使用者校稿"
     },
     {
       "id": "kobo-dashboard",
