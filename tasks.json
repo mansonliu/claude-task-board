@@ -474,12 +474,12 @@
     {
       "id": "homa-ir-方法學研究-發明-驗證-迷思",
       "title": "HOMA-IR 方法學研究（發明→驗證→迷思）",
-      "status": "in_progress",
+      "status": "done",
       "machine": "Mac Mini",
       "category": "醫學",
       "created": "2026-08-05",
-      "updated": "2026-09-10",
-      "note": "三層文件（12 頁籤證據層→六章精簡機制版→部落格草稿）共用同一份事實登錄表，check_facts.py 全綠。2026-09-09 部落格草稿〈HOMA-IR 2.5，可以說有胰島素阻抗嗎？〉依 Williams 15e Ch33 對照做框架重構（中心命題改為「門診可以算、可以當提示，但不能靠沒交代 assay 與版本的數字替個人下診斷」），Claude＋codex 獨立評估一致；第二輪減鋪陳、小標改直述；現 2,687 字、12 個 PubMed 連結全數 esummary 驗證。待：使用者校稿定案→配圖→blogger-cli 發佈→搬 _archive 收卡"
+      "updated": "2026-10-21",
+      "note": "2026-10-21 使用者確認完成，收卡。｜三層文件（12 頁籤證據層→六章精簡機制版→部落格草稿）共用同一份事實登錄表，check_facts.py 全綠。2026-09-09 部落格草稿〈HOMA-IR 2.5，可以說有胰島素阻抗嗎？〉依 Williams 15e Ch33 對照做框架重構，Claude＋codex 獨立評估一致；現 2,687 字、12 個 PubMed 連結全數 esummary 驗證"
     },
     {
       "id": "混合體能賽事備賽讀本-技術分析-八週計畫",
