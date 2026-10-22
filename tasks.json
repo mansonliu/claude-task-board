@@ -590,6 +590,16 @@
       "created": "2026-10-15",
       "updated": "2026-10-15",
       "note": "成品在 OneDrive/Medicine/01 Diabetes Melitus/2026 Glyxambi 案例分享/；含產生腳本可重跑"
+    },
+    {
+      "id": "recurring-garmin-monthly",
+      "title": "Garmin 每月月檢（跑步訓練頁）",
+      "status": "in_progress",
+      "machine": "Mac mini",
+      "category": "排程",
+      "created": "2026-10-22",
+      "updated": "2026-10-22",
+      "note": "每月月初在 Mini 跑 ~/git/harco-hyrox-prep/scripts/garmin_pull.py（Garmin Personal API），把五個指標（同心率配速、Z1–2 比例、HRV 週均、睡眠、週跑量／最長跑）與手錶 VO2max 填進 running/_notes/06-monthly.html 紀錄表一列，再 ./build.sh 與 push。手動觸發，不是 launchd。https://mansonliu.github.io/harco-hyrox-prep/running/"
     }
   ]
 }
