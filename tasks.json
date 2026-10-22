@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-21",
+  "updated": "2026-10-22",
   "tasks": [
     {
       "id": "recurring-amedeo",
@@ -488,8 +488,8 @@
       "machine": "Mac mini",
       "category": "生活",
       "created": "2026-08-20",
-      "updated": "2026-10-18",
-      "note": "讀本：https://mansonliu.github.io/harco-hyrox-prep/ ｜ repo：https://github.com/mansonliu/harco-hyrox-prep （維持公開）｜ HYROX Taipei 2027（3/13 男子公開組）備賽版：HARCO 成績檢討、Wall Ball 專章（No Rep 全是高度不夠）、雪橇合併精簡、21 週計畫以週六 1 小時教練課為核心＋自主訓練；推估約 1:32–1:44。待辦：找 3.2 m 牆、W3 5 km 全力跑、W5 試推 152 kg、W18 模擬時段。"
+      "updated": "2026-10-22",
+      "note": "混合體能賽事備賽讀本（HARCO 完賽 → HYROX 2027 備賽）。2026-10-22 加入 Garmin Personal API 訓練基準與每月月檢（第 7 章）、輕鬆跑上限改心率 140、粗體精簡。https://mansonliu.github.io/harco-hyrox-prep/"
     },
     {
       "id": "obesity-guideline-proofread",
