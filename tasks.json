@@ -600,6 +600,16 @@
       "created": "2026-10-22",
       "updated": "2026-10-22",
       "note": "每月月初在 Mini 跑 ~/git/harco-hyrox-prep/scripts/garmin_pull.py（Garmin Personal API），把五個指標（同心率配速、Z1–2 比例、HRV 週均、睡眠、週跑量／最長跑）與手錶 VO2max 填進 running/_notes/06-monthly.html 紀錄表一列，再 ./build.sh 與 push。手動觸發，不是 launchd。https://mansonliu.github.io/harco-hyrox-prep/running/"
+    },
+    {
+      "id": "blog-t1dm-sglt2i-followup-2026-10",
+      "title": "T1DM SGLT2i 心腎網誌：發佈四個月追蹤（試驗進度＋新文獻評估）",
+      "status": "in_progress",
+      "machine": "Mac",
+      "category": "網誌",
+      "created": "2026-10-22",
+      "updated": "2026-10-22",
+      "note": "https://hanwenliu.blogspot.com/2026/06/1-sglt2.html｜追蹤完成，待使用者決定是否小幅更新；候選文獻清單在 OneDrive T1DM SGLT2i 文獻/新文獻下載清單_2026-10.html"
     }
   ]
 }
