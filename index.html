@@ -122,47 +122,38 @@
   footer { margin-top: 40px; color: var(--muted); font-size: .76rem; }
   a { color: var(--accent); }
 
-  /* ── 8-bit 街景標題 ── */
+  /* ── 標題橫幅（背景圖 hero.jpg，由 Codex 生成） ── */
   .hero {
     position: relative; width: 100%;
-    aspect-ratio: 320 / 36;
+    aspect-ratio: 2048 / 410;
     border-radius: 14px; overflow: hidden;
     margin: 2px 0 24px;
     border: 1px solid var(--border);
     box-shadow: var(--shadow);
-    background: #1a1030;
+    background: #f1e6d6;
   }
-  .scene { position: absolute; inset: 0; }
-  .scene svg { display: block; width: 100%; height: 100%; image-rendering: pixelated; }
+  .hero img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: right center; }
   .hero-title {
     position: absolute; top: 0; left: 0; bottom: 0; margin: 0;
     padding: clamp(8px, 1.8vw, 14px) clamp(40px, 8vw, 80px) clamp(8px, 1.8vw, 14px) clamp(12px, 3vw, 22px);
-    display: flex; flex-direction: column; gap: 4px; justify-content: flex-start;
+    display: flex; flex-direction: column; gap: 4px; justify-content: center;
     font-weight: 400; line-height: 1.1; letter-spacing: normal;
-    /* 深色半透明底,讓標題在任何時段(尤其白天疊在大樓上)都讀得清 */
-    background: linear-gradient(90deg, rgba(8,12,26,.62) 0%, rgba(8,12,26,.45) 55%, rgba(8,12,26,0) 100%);
   }
   .ht-en {
     font-family: "Press Start 2P", monospace;
-    font-size: clamp(12px, 2.6vw, 22px); color: #cfe2ff;
-    text-shadow: 2px 2px 0 #1c3f7a, 3px 3px 0 rgba(0,0,0,.4);
+    font-size: clamp(12px, 2.6vw, 22px); color: #3f3a33;
+    text-shadow: 2px 2px 0 rgba(255,250,240,.9);
   }
   .ht-sub {
-    font-size: clamp(.62rem, 1.5vw, .76rem); color: #aec6ec;
-    margin-top: 2px; opacity: .9; letter-spacing: normal;
-    text-shadow: 1px 1px 0 rgba(0,0,0,.5);
-  }
-  .scene .tw { animation: tw 1.6s steps(2, jump-none) infinite; }
-  @keyframes tw { 0%, 100% { opacity: 1; } 50% { opacity: .25; } }
-  @media (prefers-reduced-motion: reduce) {
-    .scene .tw { animation: none; }
+    font-size: clamp(.62rem, 1.5vw, .76rem); color: #6b6258;
+    margin-top: 2px; letter-spacing: normal;
   }
 </style>
 </head>
 <body>
 <div class="wrap">
   <header class="hero">
-    <div id="scene" class="scene" aria-hidden="true"></div>
+    <img src="hero.jpg" alt="" aria-hidden="true">
     <h1 class="hero-title">
       <span class="ht-en">CLAUDE</span>
       <span class="ht-sub meta" id="updated"></span>
@@ -328,139 +319,6 @@ function render(data){
   renderBoard();
 }
 
-// ── 8-bit 街景標題:依台北時間在白天/黃昏/清晨/夜晚間切換 ──
-// 台北(UTC+8)當前小時(含分鐘),不受瀏覽器時區影響
-function taipeiHour(){
-  const parts = new Intl.DateTimeFormat("en-US",
-    {timeZone:"Asia/Taipei", hour12:false, hour:"2-digit", minute:"2-digit"})
-    .formatToParts(new Date());
-  const get = t => +(parts.find(p=>p.type===t)||{value:0}).value;
-  let hh = get("hour"); if(hh===24) hh=0;                   // 某些環境午夜回傳 24
-  return hh + get("minute")/60;
-}
-function phaseOf(h){
-  if (h >= 7  && h < 17) return "day";
-  if (h >= 17 && h < 19) return "dusk";
-  if (h >= 5  && h < 7 ) return "dawn";
-  return "night";
-}
-const PALETTES = {
-  night: {
-    sky:["#081226","#112a4e","#1b3f6e"],
-    stars:"full", moon:true, sun:null,
-    bld:["#142545","#0e1b34"], litWin:"#ffd45e", darkWin:"#27406b", winTwinkle:true,
-    roadTop:"#24365c", road:"#0c1424", line:"#c9b54a",
-    title:"#cfe2ff", titleSh:"2px 2px 0 #1c3f7a, 3px 3px 0 rgba(0,0,0,.4)", sub:"#aec6ec",
-  },
-  dusk: {
-    sky:["#1d1745","#5a2c63","#c85a3c"],
-    stars:"few", moon:false, sun:{cx:248,cy:25,r:4,fill:"#ffd27a",glow:"#ff7a34"},
-    bld:["#2a1f44","#191230"], litWin:"#ffcf5e", darkWin:"#3a2b52", winTwinkle:true,
-    roadTop:"#5a3a4a", road:"#1a1320", line:"#d8a84a",
-    title:"#ffe7c4", titleSh:"2px 2px 0 #6a2a4a, 3px 3px 0 rgba(0,0,0,.4)", sub:"#ffd0a0",
-  },
-  dawn: {
-    sky:["#152a5e","#6a5a9a","#f0a98a"],
-    stars:"few", moon:false, sun:{cx:64,cy:25,r:4,fill:"#ffdca0",glow:"#ffac6a"},
-    bld:["#26305a","#172040"], litWin:"#ffd98a", darkWin:"#33406b", winTwinkle:false,
-    roadTop:"#4a5070", road:"#141a30", line:"#cdb46a",
-    title:"#ffe9d6", titleSh:"2px 2px 0 #3a4a7a, 3px 3px 0 rgba(0,0,0,.4)", sub:"#ffd2bc",
-  },
-  day: {
-    sky:["#5fb0ee","#8fc9f0","#c7e6f7"],
-    stars:"none", moon:false, sun:{cx:276,cy:9,r:4,fill:"#fff2a8",glow:"#ffd84e"},
-    bld:["#3a5c82","#274764"], litWin:"#d2ebff", darkWin:"#21456b", winTwinkle:false,
-    roadTop:"#9aa6bf", road:"#566076", line:"#e8e2b8",
-    title:"#eaf4ff", titleSh:"2px 2px 0 #1c3f7a, 3px 3px 0 rgba(0,0,0,.4)", sub:"#cfe0f5",
-  },
-};
-const STAR_POS = [[20,4],[44,9],[72,3],[112,7],[150,5],[196,4],[224,8],[252,3],[298,6],[64,11],[170,10]];
-
-function buildHero(){
-  const pal = PALETTES[phaseOf(taipeiHour())];
-  const W = 320, H = 36, base = 30;   // base = 路面頂端
-  const P = [];
-  const r = (x,y,w,h,f,cls)=> P.push(
-    `<rect x="${x}" y="${y}" width="${w}" height="${h}" fill="${f}"${cls?` class="${cls}"`:""}/>`);
-
-  P.push(`<defs>
-    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="${pal.sky[0]}"/>
-      <stop offset="0.6" stop-color="${pal.sky[1]}"/>
-      <stop offset="1" stop-color="${pal.sky[2]}"/>
-    </linearGradient>
-  </defs>`);
-
-  r(0,0,W,H,"url(#sky)");                                   // 天空
-
-  // 星星(夜晚全部+部分閃爍;清晨/黃昏少量;白天無)
-  if (pal.stars !== "none"){
-    const list = pal.stars === "few" ? STAR_POS.slice(0,4) : STAR_POS;
-    list.forEach(([x,y],i)=> r(x,y,1,1, pal.stars==="few" ? "#cdd8f2" : "#dce8ff",
-      (pal.stars==="full" && i%3===0) ? "tw" : ""));
-  }
-
-  // 月亮(夜晚)
-  if (pal.moon){
-    P.push(`<circle cx="276" cy="8" r="4" fill="#e6edff"/>`);
-    P.push(`<circle cx="274" cy="6" r="1.4" fill="#cdd8f2"/>`);
-  }
-  // 太陽(白天/黃昏/清晨,含光暈)
-  if (pal.sun){
-    const s = pal.sun;
-    P.push(`<circle cx="${s.cx}" cy="${s.cy}" r="${s.r+2.5}" fill="${s.glow}" opacity="0.45"/>`);
-    P.push(`<circle cx="${s.cx}" cy="${s.cy}" r="${s.r}" fill="${s.fill}"/>`);
-  }
-
-  // 建築天際線 + 窗戶
-  const B = [[0,34,16],[34,26,11],[60,30,19],[90,22,8],[112,36,14],
-             [148,24,12],[172,40,17],[212,20,7],[232,34,15],[266,28,11],[294,30,19]];
-  B.forEach(([x,w,top],bi)=>{
-    r(x,top,w,base-top, bi%2 ? pal.bld[0] : pal.bld[1]);
-    for(let cx=x+3; cx<=x+w-4; cx+=7){
-      for(let cy=top+3; cy<=base-4; cy+=5){
-        const k = (cx*3 + cy*7 + bi) % 5;
-        if(k===0) continue;                                  // 留空當建築實體
-        const lit = k%3 !== 0;
-        r(cx,cy,3,3, lit ? pal.litWin : pal.darkWin,
-          (pal.winTwinkle && lit && (cx+cy)%4===0) ? "tw" : "");
-      }
-    }
-  });
-
-  // 路面 + 中線虛線
-  r(0,base-1,W,1,pal.roadTop);
-  r(0,base,W,H-base,pal.road);
-  for(let dx=6; dx<W; dx+=24) r(dx,base+3,10,1,pal.line);
-
-  // 停在路邊的跑車(低扁流線型,靜止)
-  const sportscar = (x,body,win)=>{
-    r(x,    base-3, 16, 3, body);          // 車身
-    r(x+4,  base-5,  7, 2, body);          // 車頂
-    r(x+5,  base-4,  5, 1, win);           // 車窗
-    r(x+15, base-3,  1, 1, "#ffe9a8");     // 頭燈
-    r(x+1,  base,    3, 2, "#10131c");     // 前輪
-    r(x+11, base,    3, 2, "#10131c");     // 後輪
-  };
-  sportscar(46,  "#e0394f", "#bfe7ff");    // 紅
-  sportscar(150, "#2bc2b0", "#d7fbff");    // 青
-  sportscar(244, "#f2c14e", "#fff3cf");    // 黃
-
-  const el = document.getElementById("scene");
-  if(el) el.innerHTML =
-    `<svg viewBox="0 0 ${W} ${H}" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg">${P.join("")}</svg>`;
-
-  // 標題文字配色隨時段(各時段皆淺色字,搭配 .hero-title 的深色半透明底)
-  const en = document.querySelector(".ht-en");
-  const sub = document.querySelector(".ht-sub");
-  if(en){ en.style.color = pal.title; en.style.textShadow = pal.titleSh; }
-  if(sub){ sub.style.color = pal.sub; }
-  const hero = document.querySelector(".hero");
-  if(hero) hero.style.background = pal.sky[1];
-}
-buildHero();
-// 每 5 分鐘重算時段,跨越白天/夜晚交界時自動換景,不必重新整理
-setInterval(buildHero, 5*60*1000);
 
 fetch("tasks.json?_=" + Date.now())
   .then(r => { if(!r.ok) throw new Error(r.status); return r.json(); })
