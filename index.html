@@ -4,9 +4,6 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Claude 任務看板</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 <style>
   :root {
     --bg: #f6f7f9;
@@ -122,31 +119,21 @@
   footer { margin-top: 40px; color: var(--muted); font-size: .76rem; }
   a { color: var(--accent); }
 
-  /* ── 標題橫幅（背景圖 hero.jpg，由 Codex 生成） ── */
+  /* ── 標題橫幅（背景圖 hero.jpg，由 Codex 生成，暗色系） ── */
   .hero {
     position: relative; width: 100%;
-    aspect-ratio: 2048 / 410;
+    aspect-ratio: 2048 / 384;
     border-radius: 14px; overflow: hidden;
     margin: 2px 0 24px;
     border: 1px solid var(--border);
     box-shadow: var(--shadow);
-    background: #f1e6d6;
+    background: #0d1014;
   }
-  .hero img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: right center; }
-  .hero-title {
-    position: absolute; top: 0; left: 0; bottom: 0; margin: 0;
-    padding: clamp(8px, 1.8vw, 14px) clamp(40px, 8vw, 80px) clamp(8px, 1.8vw, 14px) clamp(12px, 3vw, 22px);
-    display: flex; flex-direction: column; gap: 4px; justify-content: center;
-    font-weight: 400; line-height: 1.1; letter-spacing: normal;
-  }
-  .ht-en {
-    font-family: "Press Start 2P", monospace;
-    font-size: clamp(12px, 2.6vw, 22px); color: #3f3a33;
-    text-shadow: 2px 2px 0 rgba(255,250,240,.9);
-  }
-  .ht-sub {
-    font-size: clamp(.62rem, 1.5vw, .76rem); color: #6b6258;
-    margin-top: 2px; letter-spacing: normal;
+  .hero img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: center; }
+  .hero-updated {
+    position: absolute; left: clamp(10px, 2vw, 16px); bottom: clamp(6px, 1.4vw, 10px); margin: 0;
+    font-size: clamp(.62rem, 1.5vw, .76rem); color: rgba(226,218,205,.85);
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
   }
 </style>
 </head>
@@ -154,10 +141,7 @@
 <div class="wrap">
   <header class="hero">
     <img src="hero.jpg" alt="" aria-hidden="true">
-    <h1 class="hero-title">
-      <span class="ht-en">CLAUDE</span>
-      <span class="ht-sub meta" id="updated"></span>
-    </h1>
+    <p class="hero-updated" id="updated"></p>
   </header>
   <div class="summary" id="summary"></div>
   <div class="tabs" id="tabs"></div>
