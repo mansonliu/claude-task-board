@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-22",
+  "updated": "2026-10-23",
   "tasks": [
     {
       "id": "recurring-amedeo",
@@ -610,6 +610,16 @@
       "created": "2026-10-22",
       "updated": "2026-10-22",
       "note": "https://hanwenliu.blogspot.com/2026/06/1-sglt2.html｜待抓全文 PDF 兩篇（Perry/Tangri DOM 統合 PMID 42733137、Rosen 等 Diabetes Care 觀點 PMID 42690158），清單在 OneDrive T1DM SGLT2i 文獻/新文獻下載清單_2026-10.html；抓回後小幅更新網誌蛋白尿段／心血管段／DKA 預防段"
+    },
+    {
+      "id": "mac-mini-桌面-garmin-connect-小工具-übersicht",
+      "title": "Mac mini 桌面 Garmin Connect 小工具（Übersicht）",
+      "status": "done",
+      "machine": "Mac mini",
+      "category": "環境工具",
+      "created": "2026-10-23",
+      "updated": "2026-10-23",
+      "note": "Übersicht 小工具四張卡：心率、HRV 狀態、本週跑步、本週騎乘；資料走本機 gc-personal（Garmin Personal API）；檔案在 ~/Library/Application Support/Übersicht/widgets/garmin.widget/"
     }
   ]
 }
