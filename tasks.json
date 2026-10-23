@@ -619,7 +619,7 @@
       "category": "環境工具",
       "created": "2026-10-23",
       "updated": "2026-10-23",
-      "note": "Übersicht 小工具四張卡：心率、HRV 狀態、本週跑步、本週騎乘；資料走本機 gc-personal（Garmin Personal API）；檔案在 ~/Library/Application Support/Übersicht/widgets/garmin.widget/"
+      "note": "Übersicht 小工具四張卡：心率、HRV 狀態、本週跑步、本週騎乘，直列在左側系統小工具下方；資料走本機 gc-personal（Garmin Personal API）。公開 repo：https://github.com/mansonliu/garmin-ubersicht-widget（Library 的 widgets 夾是 symlink 指到 ~/git/garmin-ubersicht-widget）"
     }
   ]
 }
