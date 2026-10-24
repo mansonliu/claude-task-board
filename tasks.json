@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-24",
+  "updated": "2026-10-25",
   "tasks": [
     {
       "id": "recurring-amedeo",
@@ -483,13 +483,13 @@
     },
     {
       "id": "混合體能賽事備賽讀本-技術分析-八週計畫",
-      "title": "混合體能賽事備賽讀本（HARCO 完賽 → HYROX 2027 備賽）",
+      "title": "混合體能賽事備賽讀本（HARCO 完賽 → 2/13 HARCO 複測 → HYROX 2027）",
       "status": "in_progress",
       "machine": "Mac mini",
       "category": "生活",
       "created": "2026-08-20",
-      "updated": "2026-10-22",
-      "note": "混合體能賽事備賽讀本（HARCO 完賽 → HYROX 2027 備賽）https://mansonliu.github.io/harco-hyrox-prep/ ；2026-10-22 新增跑步訓練頁（Garmin 基準、強度分級、半馬全馬方向、每月月檢）https://mansonliu.github.io/harco-hyrox-prep/running/"
+      "updated": "2026-10-25",
+      "note": "混合體能賽事備賽讀本（HARCO 完賽 → HYROX 2027 備賽）https://mansonliu.github.io/harco-hyrox-prep/ ；2026-10-22 新增跑步訓練頁（Garmin 基準、強度分級、半馬全馬方向、每月月檢）https://mansonliu.github.io/harco-hyrox-prep/running/ ；2026-10-25 納入 2027-02-13 HARCO 男子單人組當 HYROX 前四週的體能測驗（第 7 章改 W16–W19、W18 全程模擬改後半場複測）"
     },
     {
       "id": "obesity-guideline-proofread",
