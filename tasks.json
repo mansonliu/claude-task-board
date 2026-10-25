@@ -633,13 +633,13 @@
     },
     {
       "id": "web-portal",
-      "title": "網頁入口：任務網頁依分類整理（Cloudflare Pages）",
+      "title": "網頁入口：非 GitHub 的任務網頁依分類整理（Cloudflare Pages）",
       "status": "in_progress",
       "machine": "Mac",
       "category": "環境工具",
       "created": "2026-10-25",
       "updated": "2026-10-25",
-      "note": "https://task-portal-adz.pages.dev/ ｜清單在私人 repo web-portal 的 site/links.json，改完要 wrangler pages deploy（目前只有 Mini 登入）；看板 note 有網址但清單沒列的會自動出現在頁面最下面"
+      "note": "https://task-portal-adz.pages.dev/ ｜只列另外做成網頁、不在 GitHub 上的東西（目前 HYROX 讀本、大阪島），不放醫學、不轉貼任務看板；清單在私人 repo web-portal 的 site/links.json，改完要 wrangler pages deploy（目前只有 Mini 登入）"
     }
   ]
 }
