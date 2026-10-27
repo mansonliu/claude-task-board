@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-26",
+  "updated": "2026-10-27",
   "tasks": [
     {
       "id": "recurring-amedeo",
@@ -488,8 +488,8 @@
       "machine": "Mac mini",
       "category": "生活",
       "created": "2026-08-20",
-      "updated": "2026-10-26",
-      "note": "混合體能賽事備賽讀本（HARCO 完賽 → HYROX 2027 備賽）https://harco-hyrox-prep.pages.dev/ ；跑步訓練頁（Garmin 基準、強度分級、半馬全馬方向、每月月檢）https://harco-hyrox-prep.pages.dev/running/ ；2026-10-25 納入 2027-02-13 HARCO 男子單人組；同日改放 Cloudflare Pages（Git 串接，push 即部署）並換新長相；2026-10-26 依首次 Z2 跑修訂：手錶自訂心率區間、週跑量改時間、月檢改分段指標、兩頁週二課表統一"
+      "updated": "2026-10-27",
+      "note": "混合體能賽事備賽讀本（HARCO 完賽 → HYROX 2027 備賽）https://harco-hyrox-prep.pages.dev/ ；跑步訓練頁（Garmin 基準、強度分級、半馬全馬方向、每月月檢）https://harco-hyrox-prep.pages.dev/running/ ；2026-10-25 納入 2027-02-13 HARCO 男子單人組；同日改放 Cloudflare Pages（Git 串接，push 即部署）並換新長相；2026-10-26 依首次 Z2 跑修訂：手錶自訂心率區間、週跑量改時間、月檢改分段指標、兩頁週二課表統一；2026-10-27 依 W2 短間歇實跑把週二 6 × 2 分改以心率為準（起點每公里 5:00–5:05），配速欄等 W3 計時跑校正"
     },
     {
       "id": "obesity-guideline-proofread",
