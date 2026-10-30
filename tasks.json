@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-27",
+  "updated": "2026-10-31",
   "tasks": [
     {
       "id": "recurring-amedeo",
@@ -640,6 +640,16 @@
       "created": "2026-10-25",
       "updated": "2026-10-25",
       "note": "https://task-portal-adz.pages.dev/ ｜只列另外做成網頁、不在 GitHub 上的東西（目前 HYROX 讀本、大阪島），不放醫學、不轉貼任務看板；清單在私人 repo web-portal 的 site/links.json，改完要 wrangler pages deploy（目前只有 Mini 登入）；交班單 web-portal/HANDOFF.md"
+    },
+    {
+      "id": "blog-lipid-1151201",
+      "title": "降血脂給付網誌：品項清單依 115/12/1 修訂更新",
+      "status": "in_progress",
+      "machine": "Mac",
+      "category": "網誌",
+      "created": "2026-10-31",
+      "updated": "2026-10-31",
+      "note": "https://hanwenliu.blogspot.com/2019/01/Lipid-NHI-regulation.html｜草稿已核對待校稿，未上線"
     }
   ]
 }
