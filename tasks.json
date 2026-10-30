@@ -650,6 +650,16 @@
       "created": "2026-10-31",
       "updated": "2026-10-31",
       "note": "https://hanwenliu.blogspot.com/2019/01/Lipid-NHI-regulation.html｜已上線，逐代碼驗證"
+    },
+    {
+      "id": "recurring-lipid-nhi-check",
+      "title": "健保署降血脂藥品專區清單監測",
+      "status": "in_progress",
+      "machine": "Mac",
+      "category": "排程",
+      "created": "2026-10-31",
+      "updated": "2026-10-31",
+      "note": "https://hanwenliu.blogspot.com/2019/01/Lipid-NHI-regulation.html｜奇數月 2 日 09:30 launchd（com.mansonliu.lipid-nhi-check）用 Chrome 查專區清單有沒有換版，變了才跳 macOS 通知、不自動改文；只看專區、看不到健保署公告附件；分階段擴增結束（預計 116 年上半年）後收掉（持續執行中）"
     }
   ]
 }
