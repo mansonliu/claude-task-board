@@ -538,8 +538,8 @@
       "machine": "Mac",
       "category": "網誌",
       "created": "2026-09-28",
-      "updated": "2026-09-28",
-      "note": "草稿待校稿：https://hanwenliu.blogspot.com/2019/01/Lipid-NHI-regulation.html ；同步腳本 _inventory/lipid_nhi_list_sync.py；Blogger token 過期待重新授權"
+      "updated": "2026-10-31",
+      "note": "https://hanwenliu.blogspot.com/2019/01/Lipid-NHI-regulation.html｜2026-09-28 已上線並逐代碼驗證；同步腳本 _inventory/lipid_nhi_list_sync.py"
     },
     {
       "id": "glyxambi-talk-20261016",
