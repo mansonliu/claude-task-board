@@ -394,12 +394,12 @@
     {
       "id": "zerow-epaper-display",
       "title": "退役 Pi Zero W 三色電子紙資訊顯示器",
-      "status": "done",
+      "status": "in_progress",
       "machine": "Mac",
       "category": "硬體",
       "created": "2026-07-25",
-      "updated": "2026-07-25",
-      "note": "2026-07-25 內容改版：TechNews AI 新聞、加 0050/006208/2330、去道瓊、每頁 300 秒（已上線驗證）"
+      "updated": "2026-10-31",
+      "note": "海報模式：輪播暫停改顯示直放海報至 2026-11-28，11/29 程式自動回輪播；回輪播後可收卡"
     },
     {
       "id": "電子寵物裝置圓球底座-3d-設計",
