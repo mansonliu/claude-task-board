@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-31",
+  "updated": "2026-11-02",
   "tasks": [
     {
       "id": "recurring-amedeo",
@@ -605,11 +605,11 @@
       "id": "blog-t1dm-sglt2i-followup-2026-10",
       "title": "T1DM SGLT2i 心腎網誌：發佈四個月追蹤（試驗進度＋新文獻評估）",
       "status": "in_progress",
-      "machine": "Mac",
+      "machine": "Office",
       "category": "網誌",
       "created": "2026-10-22",
-      "updated": "2026-10-22",
-      "note": "https://hanwenliu.blogspot.com/2026/06/1-sglt2.html｜待抓全文 PDF 兩篇（Perry/Tangri DOM 統合 PMID 42733137、Rosen 等 Diabetes Care 觀點 PMID 42690158），清單在 OneDrive T1DM SGLT2i 文獻/新文獻下載清單_2026-10.html；抓回後小幅更新網誌蛋白尿段／心血管段／DKA 預防段"
+      "updated": "2026-11-02",
+      "note": "https://hanwenliu.blogspot.com/2026/06/1-sglt2.html｜2026-11-02 Office：10 月清單 11 篇全文 PDF 已改名歸檔；網誌更新稿已擬（蛋白尿段加 RCT 統合、心血管段加專家觀點、DKA 預防段加每週血酮與胰島素減量上限、FDA 段更正歐洲撤回理由並補美國仿單只限控糖），codex 查核中；上線待 Blogger 重新授權"
     },
     {
       "id": "mac-mini-桌面-garmin-connect-小工具-übersicht",
