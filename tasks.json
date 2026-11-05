@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-04",
+  "updated": "2026-11-05",
   "tasks": [
     {
       "id": "recurring-amedeo",
@@ -670,6 +670,16 @@
       "created": "2026-11-02",
       "updated": "2026-11-02",
       "note": "11/2 已查名單中 4–11 月新加 empagliflozin 者（0 人，均已在用 Glyxambi 或用 dapagliflozin）；待使用者決定是否換條件、投影片未動｜交班單在 OneDrive Working/20261111 EMPOWER CKM Forum/HANDOFF.md"
+    },
+    {
+      "id": "journal-club-lit-search",
+      "title": "期刊討論會候選文獻搜尋（內分泌綜論與指引，定期重跑）",
+      "status": "in_progress",
+      "machine": "Mac",
+      "category": "醫學",
+      "created": "2026-11-05",
+      "updated": "2026-11-05",
+      "note": "每隔幾個月重跑；交班單在 ~/OneDrive/Medicine/期刊討論會文獻搜尋/HANDOFF.md；最新成品 2026-11 內分泌綜論與指引清單.html"
     }
   ]
 }
