@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-05",
+  "updated": "2026-11-09",
   "tasks": [
     {
       "id": "recurring-amedeo",
@@ -668,8 +668,8 @@
       "machine": "Office",
       "category": "演講教學",
       "created": "2026-11-02",
-      "updated": "2026-11-02",
-      "note": "11/2 已查名單中 4–11 月新加 empagliflozin 者（0 人，均已在用 Glyxambi 或用 dapagliflozin）；待使用者決定是否換條件、投影片未動｜交班單在 OneDrive Working/20261111 EMPOWER CKM Forum/HANDOFF.md"
+      "updated": "2026-11-09",
+      "note": "11/5 交付 2 個真實病例投影片；11/9 依意見改版成 22 張（一張一重點、字放大、TADE 逐項計分、拿掉去識別與原廠張數註記）；待使用者看過、決定是否併入原廠簡報"
     },
     {
       "id": "journal-club-lit-search",
