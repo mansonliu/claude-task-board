@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-10",
+  "updated": "2026-11-11",
   "tasks": [
     {
       "id": "recurring-amedeo",
@@ -680,6 +680,16 @@
       "created": "2026-11-05",
       "updated": "2026-11-05",
       "note": "每隔幾個月重跑；交班單在 ~/OneDrive/Medicine/期刊討論會文獻搜尋/HANDOFF.md；最新成品 2026-11 內分泌綜論與指引清單.html"
+    },
+    {
+      "id": "blog-glp1-eye-naion-fda-update",
+      "title": "GLP-1RA 與眼病變網誌：FDA NAION 警語後更新",
+      "status": "in_progress",
+      "machine": "Mac",
+      "category": "網誌",
+      "created": "2026-11-11",
+      "updated": "2026-11-11",
+      "note": "FDA 2026-11-09 全類別 NAION 警語後的舊文更新評估已完成，NAION 段建議修改；等補全文與決定修改範圍。原文 https://hanwenliu.blogspot.com/2026/06/glp-1ra.html"
     }
   ]
 }
