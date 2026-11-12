@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-11",
+  "updated": "2026-11-12",
   "tasks": [
     {
       "id": "recurring-amedeo",
@@ -568,8 +568,8 @@
       "machine": "Mini",
       "category": "排程",
       "created": "2026-10-12",
-      "updated": "2026-10-24",
-      "note": "10/24 新增第三個比賽倒數；倒數標籤改短名、緊湊排法數字自動挑字級，三框可同時放下"
+      "updated": "2026-11-12",
+      "note": "11/12 macOS 更新重開後 OneDrive 把專案夾退成佔位檔、服務掛掉；已讓檔案下載回來並重啟，待資料夾設「永遠保留在此裝置上」"
     },
     {
       "id": "story-med-scan",
