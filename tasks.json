@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12",
+  "updated": "2026-11-15",
   "tasks": [
     {
       "id": "recurring-amedeo",
@@ -690,6 +690,16 @@
       "created": "2026-11-11",
       "updated": "2026-11-11",
       "note": "FDA 2026-11-09 全類別 NAION 警語後的舊文更新，2026-11-11 已上線。https://hanwenliu.blogspot.com/2026/06/glp-1ra.html"
+    },
+    {
+      "id": "godzilla-minus-zero-kids",
+      "title": "《哥吉拉-0.0》對照戰後日本親子圖解",
+      "status": "in_progress",
+      "machine": "Mac",
+      "category": "生活",
+      "created": "2026-11-15",
+      "updated": "2026-11-15",
+      "note": ""
     }
   ]
 }
