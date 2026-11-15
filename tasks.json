@@ -694,12 +694,12 @@
     {
       "id": "godzilla-minus-zero-kids",
       "title": "《哥吉拉-0.0》對照戰後日本親子圖解",
-      "status": "in_progress",
+      "status": "done",
       "machine": "Mac",
       "category": "生活",
       "created": "2026-11-15",
       "updated": "2026-11-15",
-      "note": ""
+      "note": "https://claude.ai/artifact/8y16AXQvi84ZjGc8LBqWch｜本機版 ~/Downloads/哥吉拉-0.0圖解/；codex 生 10 張插圖"
     }
   ]
 }
