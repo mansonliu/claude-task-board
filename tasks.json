@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-17",
+  "updated": "2026-11-19",
   "tasks": [
     {
       "id": "recurring-amedeo",
@@ -700,6 +700,16 @@
       "created": "2026-11-15",
       "updated": "2026-11-15",
       "note": "https://claude.ai/artifact/8y16AXQvi84ZjGc8LBqWch｜本機版 ~/Downloads/哥吉拉-0.0圖解/；codex 生 10 張插圖"
+    },
+    {
+      "id": "blog-lipid-inclisiran",
+      "title": "降血脂給付文：PCSK9 新增 inclisiran",
+      "status": "in_progress",
+      "machine": "Mac",
+      "category": "網誌",
+      "created": "2026-11-19",
+      "updated": "2026-11-19",
+      "note": "https://hanwenliu.blogspot.com/2019/01/Lipid-NHI-regulation.html｜草稿完成待校稿；token 過期待重新授權"
     }
   ]
 }
